@@ -1,0 +1,42 @@
+ :root {
+    --point-color: #E94B2F;
+    --point-color-variant: #FBF7EC;
+    --primary-color: #0d0d0d;
+    --main-font: 'Mulish', sans-serif;
+ }
+
+ * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--main-font);
+    font-size: 10pt;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a {
+    color: #0d0d0d;
+    text-decoration: none;
+}
+a:link, a:active, a:visited {
+    color: #0d0d0d;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
