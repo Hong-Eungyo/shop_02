@@ -1,0 +1,181 @@
+.category-container {
+    width: 100%;
+    position: relative;
+    clear: both;
+}
+
+    .category-container >.section_title {
+        font-size: 2.8rem;
+        padding-left: 100px;
+        padding-bottom: 30px;
+    }
+
+        .category-box {
+            width: 100%;
+            display: flex;
+        }
+
+        .category {
+            width: 25%;
+            position: relative;
+        }
+
+            .category-btn {
+                position: absolute;
+                left: 50%;
+                bottom: 50px;
+                transform: translateX(-50%);
+                width: 80%;
+                height: 50px;
+                border-radius: 50px;
+                font-size: 1.1rem;
+                font-weight: bold;
+            }
+
+            .category_img_mo {
+                display: none;
+            }
+
+.standard  {
+    width: 100%;
+    position: relative;
+    clear: both;
+    display: flex;
+}
+
+    .standard-info {
+        width: 50%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 30px;
+        padding: 80px;
+        background: var(--point-color-variant);
+    }
+        .standard-title {
+            font-size: 3rem;
+        }
+
+        .standard-description {
+            font-size: 1.3rem;
+        }
+    .standard-btn-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        column-gap: 10px;
+    }
+    .standard-btn-box  > .standard-btn {
+        width: 40%;
+        height: 60px;
+        line-height: 60px;
+        border-radius: 60px;
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+    .standard-img {
+        width: 50%;
+    }
+    .standard-img-mobile {
+        display: none;
+    }
+
+/* 모바일 화면 */
+@media all and (max-width: 800px) {
+    .category-container {
+        width: 100%;
+        position: relative;
+        clear: both;
+    }
+
+    .category-container >.section_title {
+        font-size: 2rem;
+        padding: 0;
+        text-align: center;
+    }
+    .category-box {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .category {
+        width: 50%;
+        position: relative;
+    }
+    
+
+        .category-btn {
+            position: absolute;
+            left: 50%;
+            bottom: 30px;
+            transform: translateX(-50%);
+            width: 60%;
+            height: 40px;
+            border-radius: 40px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+        .category_img_pc {
+            display: none;
+        }
+        .category_img_mo {
+            display: block;
+        }
+
+    .standard  {
+        width: 100%;
+        position: relative;
+        clear: both;
+        display: flex;
+        flex-flow: column-reverse;
+    }
+        
+            .standard-info {
+                width: 100%;
+                display: flex;
+                flex-flow: column;
+                justify-content: center;
+                align-items: flex-start;
+                row-gap: 30px;
+                padding: 30px;
+                background: var(--point-color-variant);
+            }
+                .standard-title {
+                    font-size: 1.5rem;
+                }
+    
+                .standard-description {
+                    font-size: 1.2rem;
+                }
+
+            .standard-img {
+                width: 100%;
+            }
+            .standard-img-pc {
+                display: none;
+            }
+            .standard-img-mobile {
+                display: block;
+                width: 100%;
+            }
+
+            .standard-btn-box {
+                width: 100%;
+                display: flex;
+                flex-flow: column;
+                justify-content: center;
+                row-gap: 10px;
+            }
+            .standard-btn-box  > .standard-btn {
+                width: 100%;
+                height: 50px;
+                line-height: 50px;
+                border-radius: 50px;
+                font-size: 0.9rem;
+                font-weight: bold;
+            }
+              
+}

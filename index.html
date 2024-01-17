@@ -17,13 +17,15 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/category.css">
 
     <!-- js -->
     <script src="js/slideMenu.js" defer></script>
+    <script src="js/scrollHide.js" defer></script>
 </head>
 <body>
-    <header id="header">
-        <nav class="header-container">
+    <header id="header" >
+        <nav class="header-container" >
 
             <div class="header-top">
 
@@ -90,7 +92,7 @@
                             </span>
                         </div>
                      </div>
-                    <div class="mobile-icon-box">
+                    <div class="mobile-icon-box" >
                         <span class="material-symbols-outlined">
                             favorite
                         </span>
@@ -262,7 +264,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="mobile-container">
+                <div class="mobile-container" id="mobile-menu" >
                     <div class="slide-menu-box">
                         <ul class="slide-menu-list">
                             <li>
@@ -327,8 +329,9 @@
         </nav>
     </header>
     
-    <!-- 메인화면 시작 -->
+    
     <div class="content-container">
+        <!-- 메인화면 시작 -->
         <div class="main-img-container">
             <img class="pc_main_img" src="img/main_img_pc.jpg" alt="main img" width="100%">
             <img class="mobile_main_img" src="img/main_img_mobile.jpg" alt="mobile main img" width="100%">
@@ -345,7 +348,109 @@
             <img class="row_info_pc" src="img/row_info_pc.jpg" width="100%">
             <img class="row_info_mobile" src="img/row_info_mobile.jpg" width="100%">
         </div>
+
+        <!-- 여백 -->
+        <div class="blank_h80"></div>
+        <div class="m_blank_h30"></div>
+
+        <!-- category 시작 -->
+        <section class="category-container">
+            <h2 class="section_title">
+                SHOP BY CATEGORY
+            </h2>
+            <div class="m_blank_h30"></div>
+            <div class="category-box">
+                <div class="category">
+                    <img class="category_img_pc" src="img/category_01_desktop.jpg" alt="earrings" width="100%" height="100%">
+                    <img class="category_img_mo" src="img/category_01_mobile.jpg" alt="earrings" width="100%" height="100%">
+                    <button class="category-btn">EARRINGS</button>
+                </div>
+                <div class="category">
+                    <img class="category_img_pc" src="img/category_02_desktop.jpg" alt="necklaces" width="100%" height="100%">
+                    <img class="category_img_mo" src="img/category_02_mobile.jpg" alt="necklaces" width="100%" height="100%">
+                    <button class="category-btn">NECKLACES</button>
+                </div>
+                <div class="category">
+                    <img class="category_img_pc" src="img/category_03_desktop.jpg" alt="rings" width="100%" height="100%">
+                    <img class="category_img_mo" src="img/category_03_mobile.jpg" alt="rings" width="100%" height="100%">
+                    <button class="category-btn">RINGS</button>
+                </div>
+                <div class="category">
+                    <img class="category_img_pc" src="img/category_04_desktop.jpg" alt="bracelets" width="100%" height="100%">
+                    <img class="category_img_mo" src="img/category_04_mobile.jpg" alt="bracelets" width="100%" height="100%">
+                    <button class="category-btn">BRACELETS</button>
+                </div>
+            </div>
+            <div class="standard">
+                <div class="standard-info">
+                    <h3 class="standard-title">JEWELRY WITH STANDARDS.</h3>
+                    <p class="standard-description">
+                        Everyday, tarnish-free pieces made to last. Backed by a 2-Year Warranty to keep you happy (and the planet, too).
+                    </p>
+                    <div class="standard-btn-box">
+                        <button class="standard-btn">SHOP BEST SELLERS</button>
+                        <button class="standard-btn">SHOP FINE JEWELRY</button>
+                    </div>
+                </div>
+                <div class="standard-img">
+                    <img class="standard-img-pc" src="img/standards_img_desktop.jpg" alt="jewelry with standards" width="100%" height="100%">
+                    <img class="standard-img-mobile" src="img/standards_img_mobile.jpg" alt="jewelry with standards" width="100%" height="100%">
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="review-top">
+                <h2 class="section_title">
+                    50,000+ FIVE STAR REVIEWS
+                </h2>
+                <div class="slide-btn">
+                    <span class="material-symbols-outlined">
+                        arrow_circle_left
+                    </span>
+                    <span class="material-symbols-outlined">
+                        arrow_circle_right
+                    </span>
+                </div>
+                <div class="review-bottom">
+                    <div class="review">
+                        <div class="stars">
+                            <img src="img/starts.png" alt="">
+                        </div> 
+                        <p class="review_text">
+                            Absolutely love these earrings. No tarnishing
+                            even though I wear then in the shower often. I get 
+                            compliments all the time!! Hoping to get the blue ones soon!
+                        </p>
+                        <p class="review_user">Alena M.</p>
+                    </div>
+                    <div class="review">
+                        <div class="stars">
+                            <img src="img/starts.png" alt="">
+                        </div> 
+                        <p class="review_text">
+                            Absolutely love these earrings. No tarnishing
+                            even though I wear then in the shower often. I get 
+                            compliments all the time!! Hoping to get the blue ones soon!
+                        </p>
+                        <p class="review_user">Alena M.</p>
+                    </div>
+                    <div class="review">
+                        <div class="stars">
+                            <img src="img/starts.png" alt="">
+                        </div> 
+                        <p class="review_text">
+                            Absolutely love these earrings. No tarnishing
+                            even though I wear then in the shower often. I get 
+                            compliments all the time!! Hoping to get the blue ones soon!
+                        </p>
+                        <p class="review_user">Alena M.</p>
+                    </div>
+                </div>
+            </div>
+            
+
+        </section>
+
     </div>
-    <!-- category 시작 -->
 </body>
 </html>
