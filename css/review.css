@@ -1,0 +1,99 @@
+.reviews {
+    width: 100%;
+    position: relative;
+    clear: both;
+    padding: 2rem;
+    background: var(--point-color);
+} 
+
+    .review-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+    }
+        .review-top > .section_title {
+            color: var(--point-color-variant)
+        }
+
+        .slide-btn > span {
+            font-size: 2.5rem;
+            color: #333;
+            cursor: pointer;
+        }
+
+        #btn-off {
+            color: #797979;
+        }
+    
+    .review-bottom {
+        width: 100%;
+        display: flex;
+        column-gap: 20px;
+        
+    }
+        .review {
+            padding: 2rem;
+            min-height: 250px;
+            background: var(--point-color-variant);
+            border-radius: 15px;
+
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+        }
+
+        .review > .review_text {
+            font-size: 1.2rem;
+        }
+
+        .review > .review_user {
+            font-size: 1rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            column-gap: 5px;
+        }
+        .review_user > .check {
+            font-size: 1rem;
+            color: #31b857;
+        }
+
+/* 모바일 화면 */
+@media all and (max-width: 800px)  {
+.review-top {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        gap: 10px;
+    }
+
+    .review-top > .slide-btn {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .slide-btn > span {
+        font-size: 2rem;
+    }
+    .review-bottom {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+    }
+    .review {
+        display: none;
+    }
+
+    .review:first-child {
+        display: flex;
+    }
+
+
+    
+}

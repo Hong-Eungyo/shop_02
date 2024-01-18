@@ -231,6 +231,7 @@
                 display: none;
             }
 
+            
 /* 모바일 화면 */
 @media all and (max-width: 800px) {
     /* pc 요소 display: none */
