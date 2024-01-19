@@ -71,7 +71,9 @@
         height: 100px;
         gap: 10px;
     }
-
+    .review-top > .section_title {
+        font-size: 1.5rem;
+    }
     .review-top > .slide-btn {
         display: flex;
         justify-content: flex-end;

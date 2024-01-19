@@ -89,6 +89,10 @@
     .new-top > .section_title {
         padding-bottom: 20px;
         white-space: nowrap;
+        font-size: 1.3rem;
+    }
+    .new_item_name {
+        font-size: 0.8rem;
     }
 
     .new-top > .slide-btn {
@@ -104,6 +108,13 @@
         grid-template-rows: minmax(200px, 300px);
         column-gap: 15px;
     }
+    .new_item_img {
+        width: 100%;
+        height: 100%;
+    }
+
+    
+    
     .new:nth-child(3) {
         display: none;
     }
