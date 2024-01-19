@@ -57,10 +57,11 @@
             font-size: 1.3rem;
         }
     .standard-btn-box {
-        width: 100%;
+        width: 120%;
         display: flex;
         justify-content: center;
         column-gap: 10px;
+        white-space: nowrap;
     }
     .standard-btn-box  > .standard-btn {
         width: 40%;

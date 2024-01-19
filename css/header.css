@@ -329,7 +329,7 @@
         animation: 30s linear infinite slide01;
     
     }
-    .slide-menu-box .slide-menu-list.clone {
+    .slide-menu-box > .slide-menu-list.clone {
         animation: 30s linear  infinite slide02;
     }
 
@@ -345,5 +345,8 @@
     @keyframes slide02 {
         0% { transform: translateX(0); }
         100% { transform: translateX(-200%);}
+    }
+    .slide-menu-box:hover > .slide-menu-list {
+        animation-play-state: paused;
     }
 }

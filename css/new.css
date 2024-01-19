@@ -12,6 +12,7 @@
         width: 100%;
         height: 100px;
     }
+       
 
     .new-bottom {
         width: 100%;
@@ -25,6 +26,7 @@
          display: grid;
          grid-template-columns: 1fr;
          grid-template-rows: 3fr 0.5fr 0.5fr;
+         cursor: pointer;
         }
 
          .new_item_img {
@@ -83,6 +85,10 @@
         align-items: center;
         width: 100%;
         height: 100px;
+    }
+    .new-top > .section_title {
+        padding-bottom: 20px;
+        white-space: nowrap;
     }
 
     .new-top > .slide-btn {

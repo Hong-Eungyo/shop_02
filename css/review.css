@@ -45,7 +45,7 @@
         }
 
         .review > .review_text {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
         }
 
         .review > .review_user {
@@ -76,7 +76,7 @@
         display: flex;
         justify-content: flex-end;
         width: 100%;
-        margin-bottom: 10px;
+        /* margin-bottom: 20px; */
     }
     .slide-btn > span {
         font-size: 2rem;
@@ -93,6 +93,7 @@
     .review:first-child {
         display: flex;
     }
+
 
 
     

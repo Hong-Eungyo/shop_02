@@ -72,6 +72,6 @@ button:hover {
 /* 모바일 */
 @media all and (max-width: 800px) {
     .section_title  {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }

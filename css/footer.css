@@ -1,0 +1,117 @@
+.footer-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    clear: both;
+    background: var(--point-color);
+    color: var(--color-white);
+
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+}
+    /* footer left */
+    .footer-left-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .footer-con-title {
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+
+    .footer-con-list > li {
+        margin: 5px 0;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    /* footer right */
+    .footer-right-conetnet {
+        display: flex;
+        flex-flow: column;
+        position: relative;
+    }
+    .footer-right-title {
+        font-size: 1.1rem;
+        margin-bottom: 20px
+    }
+
+    .footer-right-text {
+        max-width: 300px;
+    }
+
+    .footer-email {
+        margin: 20px 0;
+        display: flex;
+        align-items: center;
+    }
+
+        .email-input {
+            width: 220px;
+            height: 40px;
+            border: none;
+            padding: 10px;
+            border-radius: 30px;
+        }
+        .send-btn {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100px;
+            background: var(--color-white);
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        .send-btn > span {
+            font-size: 2.5rem;
+            color: var(--point-color);
+        }
+    .sns-icon {
+        width: 80px;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    /* 모바일 화면 */
+    @media all and (max-width: 800px) {
+        .footer-container {
+            width: 100%;
+            height: auto;
+            position: relative;
+            clear: both;
+            background: var(--point-color);
+            color: var(--color-white);
+        
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            row-gap: 50px;
+        }
+        .footer-right-conetnet {
+            display: flex;
+            flex-flow: column;
+            position: relative;
+        }
+
+        
+        .footer-right-text {
+            max-width: 100%;
+        }
+        .email-input {
+            width: 300px;
+            height: 40px;
+            border: none;
+            padding: 10px;
+            border-radius: 30px;
+        }
+    }
