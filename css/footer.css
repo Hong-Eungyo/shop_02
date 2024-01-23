@@ -79,6 +79,9 @@
         justify-content: space-between;
         cursor: pointer;
     }
+    .made {
+        padding-top: 10px;
+    }
 
     /* 모바일 화면 */
     @media all and (max-width: 800px) {
@@ -103,9 +106,10 @@
             grid-template-rows: 1fr;
             justify-content: center;
             align-items: flex-start;
-            column-gap: 30px;
+            column-gap: 20px;
         }
         .footer-right-conetnet {
+            width: 100%;
             display: flex;
             flex-flow: column;
             position: relative;
@@ -137,5 +141,11 @@
             border: none;
             padding: 10px;
             border-radius: 30px;
+        }
+        .sns-icon {
+            width: 50px;
+            display: flex;
+            justify-content: space-between;
+            cursor: pointer;
         }
     }
