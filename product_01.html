@@ -23,8 +23,8 @@
     <link rel="stylesheet" href="css/product.css">
 
     <!-- js -->
-    <script src="js/slideMenu.js" defer></script>
     <script src="js/scrollHide.js" defer></script>
+    <script src="js/infoBoxBtn.js" defer></script>
     
 </head>
 <body>
@@ -344,7 +344,11 @@
             </div>
             <!-- 제품 사진과  제품정보-->
             <div class="product-container">
+                <div class="product-img-big">
+                    <img src="img/detail_img_01.jpg" alt="상품 이미지" width="100%">
+                </div>
                 <div class="product-img-container">
+                    
                     <div class="product-img">
                         <img src="img/detail_img_01.jpg" alt="상품 이미지" width="100%">
                     </div>
@@ -380,7 +384,10 @@
                         <button>ADD TO CART</button>
                     </div>
                     <div class="info_text_04">
-                        <span class="red-light">&nbsp;</span>
+                        <div class="light-effect">
+                            <span class="red-light">&nbsp;</span>
+                            <span class="red-light-effect">&nbsp;</span>
+                        </div>
                         1288 items purchased in the last 24 hours
                     </div>
                     <div class="info_text_05">
@@ -422,55 +429,79 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="info-text-08">
-                        <div class="info-button clicked">Quality
-                            <div class="info-detail">
-                                <p>Ana Luisa offers a 2-Year Warranty on all products.</p>
+                    <div class="info_text_08">
+                        <div class="info-btn-box">
+                            <div class="info-button btn_clicked" data-category="quality">Quality</div>
+                            <div class="info-button" data-category="details">Deatils</div>
+                            <div class="info-button" data-category="care">Care</div>
+                            <div class="info-button" data-category="description">Description</div>
+                        </div>
+                        <div class="info_box info01" data-type="quality">
+                            <div class="info-detail info-detail_01">
+                                <p class="detail_title">Ana Luisa offers a 2-Year Warranty on all products.</p>
                                 <p>Every single piece of jewelry is rigorously tested and guaranteed to be long lasting, hypoallergenic and water resistant.</p>
                                 <p>If for any reason you are not satisfied with your purchase, our 2 year warranty has you covered. No risk, all rewards.</p>
                                 <span>Read more</span>
                             </div>
                         </div>
-                        <div class="info-button">Deatils
-                            <div class="info-detail">
-                                <div class="detail-item">
-                                    <p>Materials</p>
-                                    <p>14K Gold on Sterling Silver</p>
-                                </div>
-                                <div class="detail-item">
-                                    <p>Width</p>
-                                    <p>6.8mm - 0.27"</p>
-                                </div>
-                                <div class="detail-item">
-                                    <p>Thickness</p>
-                                    <p>3.5mm - 0.14"</p>
-                                </div>
-                                <div class="detail-item">
-                                    <p>Weight</p>
-                                    <p>0.45g</p>
-                                </div>
-                                <div class="detail-item">
-                                    <p>Clasp</p>
-                                    <p>Post</p>
-                                </div>
-                                <div class="detail-item">
-                                    <p>Post</p>
-                                    <p>Surgical Steel</p>
-                                </div>
-                                
+                        
+                        <div class="info_box info02" data-type="details">
+                                <div class="info-detail info-detail_02">
+                                    <div class="detail-item">
+                                        <p>Materials</p>
+                                        <p>14K Gold on Sterling Silver</p>
+                                    </div>
+                                    <div class="detail-item">
+                                        <p>Width</p>
+                                        <p>6.8mm - 0.27"</p>
+                                    </div>
+                                    <div class="detail-item">
+                                        <p>Thickness</p>
+                                        <p>3.5mm - 0.14"</p>
+                                    </div>
+                                    <div class="detail-item">
+                                        <p>Weight</p>
+                                        <p>0.45g</p>
+                                    </div>
+                                    <div class="detail-item">
+                                        <p>Clasp</p>
+                                        <p>Post</p>
+                                    </div>
+                                    <div class="detail-item">
+                                        <p>Post</p>
+                                        <p>Surgical Steel</p>
+                                    </div>
+                                    <div class="detail-item">
+                                        <p>Crafted In</p>
+                                        <p>China</p>
+                                    </div>
                             </div>
                         </div>
-                        <div class="info-button clicked">Care
-                            <div class="info-detail">
+                        <div class="info_box info03" data-type="care">
+                            <div class="info-detail info-detail_03">
                                 <p>Our jewelry is designed to be water-resistant, so you don't have to worry about taking it off when you're near water. However, we recommend limiting prolonged exposure to water to keep your jewelry looking its best.</p>
                                 <p>When you're not wearing your pieces, we suggest storing them in the original Ana Luisa pouch in a cool, dry place to help maintain their luster and extend their lifespan.</p>
-                                <p>For more details, check out our<span>Jewelry care page.</span></p>
+                                <p>For more details, check out our <span>Jewelry care page.</span></p>
+                            </div>
+                        </div>
+                        <div class="info_box info04" data-type="description">
+                            <div class="info-detail info-detail_04">
+                                <p>Dainty yet bold, these flower stud earrings are a perfect delicate pair. Crafted in recycled sterling silver and dipped in 14k gold, these studs are featured in a fun rose-shaped silhouette. Create a fun floral look and pair these studs with our Gloria necklace.</p>
+                                <p>• Rose-shaped studs</p>
+                                <p>• Tarnish-proof 14k gold plating</p>
+                                <p>• Crafted in recycled sterling silver</p>
                             </div>
                         </div>
                     </div>
 
                 </div>
 
+            </div>
+            <!-- 여백 -->
+            <div class="blank_h80"></div>
+            <div class="m_blank_h30"></div>
+            <div class="middle-banner">
+                <img src="img/middle-banner.jpg" width="100%" alt="중간 베너 이미지">
             </div>
 
         </main>
