@@ -9,6 +9,7 @@
     clear: both;
     
 }
+/*  경로 */
     .root-all {
         width: 100%;
         height: 50px;
@@ -25,9 +26,10 @@
         clear: both;
         display: flex;
     }
-
+        /* 상단 왼쪽 */
         .product-img-container {
             width: 60%;
+            height: auto;
             display: flex;
             flex-flow: row wrap;
             gap: 5px;
@@ -40,7 +42,7 @@
         .product-img-big {
             display: none;
         }
-
+        /* 상단 오른쪽  */
         .product-info-container {
             width: 40%;
             height: 120vh;
@@ -212,7 +214,7 @@
                 }
             .info_text_08 {
                 width: 100%;
-                height: 150px;
+                height: auto;
             }
             .info-btn-box {
                 width: 100%;
@@ -229,6 +231,7 @@
                 border-radius: 30px;
                 border: 1px solid var(--primary-color);
                 font-size: 1rem;
+                white-space: nowrap;
             }
 
             .info-button:hover {
@@ -277,7 +280,6 @@
                 padding: 0 1rem;
                 display: flex;
                 justify-content: flex-start;
-                /* column-gap: 100px; */
             }
             .detail-item p:nth-child(1) {
                width: 30%;
@@ -289,18 +291,59 @@
                 text-decoration: underline;
                 font-weight: bold;
             }
+    /* middle banner */
     .middle-banner {
         width: 1200px;
         height: 300px;
         margin: 0 auto;
     }
+    .mobile-banner { 
+        display: none;
+    }
 
+    /* get inspired */
+    .inspired-container {
+        max-width: 1200px;
+        height: auto;
+        margin: 0 auto;
+        padding: 0 50px;
+        position: relative;
+        clear: both;
+    }
+    .inspired-title-box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+        .inspired-title {
+            width: 100%;
+            height: 40px;
+            line-height: 40px;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        .inspired-title-box > .slide-btn {
+            width: 100px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .inspired-img-box {
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+        }
 
 
 
     @media all and (max-width: 800px) {
         .mobile-container {
             display: none;
+        }
+        .root-all {
+           display: none;
         }
         .content-container {
             position: relative;
@@ -311,33 +354,84 @@
         }
         .product-container {
             width: 100%;
+            height: auto;
             display: flex;
             flex-flow: column;
         }
+
         .product-img-container {
             width: 100%;
+            height: auto;
             display: flex;
             flex-flow: row nowrap;
             gap: 5px;
+            margin-top: 5px;
         }
 
             .product-img {
-                width: 100px;
-                height: 100px;
+                width: 16%;
+                height: 101px;
+            }
+
+            .product-img.img-clicked {
+                border: 1px solid var(--primary-color);
             }
 
         .product-img-big {
             display: block;
+            width: 100%;
+            height: 400px;
+            background: url(../img/detail_img_01.jpg) no-repeat center;
+            background-size: cover;
         }
+
         .product-info-container {
             width: 100%;
             height: auto;
             display: flex;
             flex-flow: column;
             align-items: center;
-            padding: 0 1rem;
-            position: relative;
 
         }
+        /* banner */
+        .middle-banner {
+            width: 100%;
+            height: auto;
+            margin: 0;
+        }
+        .pc-banner {
+            display: none;
+        }
+        .mobile-banner { 
+            display: block;
+        }
+        /* get  inspired*/
+        .inspired-container {
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+            padding: 0 50px;
+            position: relative;
+            clear: both;
+        }
+            .inspired-title {
+                width: 100%;
+                height: 40px;
+                line-height: 40px;
+                font-size: 1.5rem;
+                margin-bottom: 20px;
+            }
+    
+            .inspired-img-box {
+                display: flex;
+                flex-flow: column;
+                row-gap: 10px;
+            }
+            .inspired-img {
+                display: none;
+            }
+            .inspired-img:nth-child(1) {
+                display: block;
+            }
 
     }
