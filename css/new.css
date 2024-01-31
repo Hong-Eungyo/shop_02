@@ -39,7 +39,7 @@
             height: 100%;
             overflow: hidden;
         }
-        .new_item_img > img {
+        .new_item_img  img {
             object-fit: cover;
             object-position: center;
         }
@@ -103,7 +103,7 @@
         height: 100%;
         overflow: hidden;
     }
-    .new_item_img > img {
+    .new_item_img  img {
         object-fit: cover;
         object-position: center;
     }
