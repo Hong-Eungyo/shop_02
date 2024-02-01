@@ -37,7 +37,6 @@ button {
     border: 1px solid var(--point-color);
     background: var(--point-color);
     color: var(--point-color-variant);
-    cursor: pointer
 }
 
 button:hover {

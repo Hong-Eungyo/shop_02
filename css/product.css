@@ -563,6 +563,11 @@
         max-width: 1200px;
         margin: 0 auto;
     }
+
+    .together-container  .section_title {
+        font-size: 1.6rem;
+        text-align: left;
+    }
     
 
 
@@ -608,8 +613,10 @@
         .product-img-big {
             display: block;
             width: 100%;
-            height: 400px;
-            background: url(../img/detail_img_01.jpg) no-repeat center;
+            height: 500px;
+            background-image: url(../img/detail_img_01.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
             background-size: cover;
         }
 
@@ -638,7 +645,7 @@
             max-width: 100%;
             height: auto;
             margin: 0 auto;
-            padding: 0 50px;
+            padding: 0 1rem;
             position: relative;
             clear: both;
         }
@@ -740,7 +747,7 @@
             }
             .together-container {
                 max-width: 100%;
-                margin: 0 auto;
+
             }
 
 
