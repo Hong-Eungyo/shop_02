@@ -242,6 +242,7 @@
         display: none;
     }
     #header { 
+        width: 100%;
         border-bottom: none;
         padding-top: 0; 
         height: 60px;
