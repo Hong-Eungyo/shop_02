@@ -16,15 +16,19 @@
         .review-top > .section_title {
             color: var(--point-color-variant)
         }
-
+        .slide-btn {
+            display: flex;
+            column-gap: 10px;
+        }
         .slide-btn > span {
             font-size: 2.5rem;
-            color: #333;
-            /* cursor: pointer; */
+            color: #797979;
+            cursor: pointer;
+            display: block;
         }
 
-        #btn-off {
-            color: #797979;
+        .slide-btn .btn-on {
+            color: #0d0d0d;
         }
     
     .review-bottom {

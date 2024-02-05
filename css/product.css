@@ -222,6 +222,7 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                cursor: pointer;
             }
             .info-button {
                 width: 23%;
