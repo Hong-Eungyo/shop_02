@@ -16,21 +16,8 @@
         .review-top > .section_title {
             color: var(--point-color-variant)
         }
-        .slide-btn {
-            display: flex;
-            column-gap: 10px;
-        }
-        .slide-btn > span {
-            font-size: 2.5rem;
-            color: #797979;
-            cursor: pointer;
-            display: block;
-        }
+        
 
-        .slide-btn .btn-on {
-            color: #0d0d0d;
-        }
-    
     .review-bottom {
         width: 100%;
         display: flex;
@@ -78,15 +65,8 @@
     .review-top > .section_title {
         font-size: 1.5rem;
     }
-    .review-top > .slide-btn {
-        display: flex;
-        justify-content: flex-end;
-        width: 100%;
-        /* margin-bottom: 20px; */
-    }
-    .slide-btn > span {
-        font-size: 2rem;
-    }
+ 
+    
     .review-bottom {
         width: 100%;
         display: flex;
@@ -99,8 +79,5 @@
     .review:first-child {
         display: flex;
     }
-
-
-
     
 }

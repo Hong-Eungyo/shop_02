@@ -54,6 +54,8 @@ button:hover {
 }
 /* 여백 height 80px */
 .blank_h80 {
+    position: relative;
+    clear: both;
     width: 100%;
     height: 80px;
 }
