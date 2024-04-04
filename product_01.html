@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flower Stud Earrings</title>
     <!-- google fonts -->
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600&display=swap');
-      </style>
-   
+      @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600&display=swap");
+    </style>
+
     <!-- google icon -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-      
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
     <!-- css -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/category.css">
-    <link rel="stylesheet" href="css/review.css">
-    <link rel="stylesheet" href="css/new.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/category.css" />
+    <link rel="stylesheet" href="css/review.css" />
+    <link rel="stylesheet" href="css/new.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/product.css" />
 
     <!-- js -->
     <script src="js/scrollHide.js" defer></script>
@@ -28,545 +31,742 @@
     <script src="js/clickImg.js" defer></script>
     <script src="js/hamburger.js" defer></script>
     <script src="js/productImgSlide.js" defer></script>
-
-
-    
-</head>
-<body>
+  </head>
+  <body>
     <!-- 헤더 -->
-    <header id="header" >
-        <nav class="header-container" >
-
-            <div class="header-top">
-
-                <div class="pc-header-top_left">
-                    <div class="search-bar">
-                        <span class="material-symbols-outlined" id="search-icon">
-                            search
-                            </span>
-                        <div class="bar-bg">search</div>
-                    </div>
-                    <div class="local">
-                        <a href="#">
-                            <img src="img/locate_img.png" alt="usa" width="25px">
-                        </a>
-                        <span>USD</span>
-                    </div>
-                    <div class="store">
-                        <span class="material-symbols-outlined">
-                            home_pin
-                            </span>
-                        <span>STORE</span>
-                    </div>
-                    
-                </div>
-                <div class="mobile-header-top-left">
-                    <div class="mobile-menu">
-                        <span class="material-symbols-outlined" id="search-icon">
-                            menu
-                        </span>
-                    </div>
-                    <div class="mobile-search">
-                        <span class="material-symbols-outlined" id="search-icon">
-                            search
-                        </span>
-                    </div>
-                </div>
-
-                <div class="header-top_center">
-                    <a href="index.html" id="header_logo"><img src="img/logo_img.png" alt="logo" width="120px"></a>
-                </div>
-
-                <div class="header-top_right">
-                    <div class="pc-header">
-                        <a href="#">AL REWARDS</a>
-                        <div class="header-icon-box">
-                            <span class="header-icon"><span class="material-symbols-outlined">
-                                help
-                                </span>
-                            </span>
-                            <span class="header-icon"> 
-                                <span class="material-symbols-outlined">
-                                    favorite
-                                </span>
-                            </span>
-                            <span class="header-icon"> 
-                                <span class="material-symbols-outlined">
-                                    person
-                                </span>
-                            </span>
-                            <span class="header-icon"> 
-                                <span class="material-symbols-outlined">
-                                    shopping_bag
-                                </span>
-                            </span>
-                        </div>
-                     </div>
-                    <div class="mobile-icon-box" >
-                        <span class="material-symbols-outlined">
-                            favorite
-                        </span>
-                        <span class="material-symbols-outlined">
-                            shopping_bag
-                        </span>
-                    </div>
-                </div>
+    <header id="header">
+      <div class="header-container">
+        <div class="header-top">
+          <div class="pc-header-top_left">
+            <div class="search-bar">
+              <span class="material-symbols-outlined" id="search-icon">
+                search
+              </span>
+              <div class="bar-bg">search</div>
             </div>
-
-            <div class="header-bottom">
-                <div class="pc-header_menu-container">
-                    <div class="header_menu">BEST SELLERS</div>
-                    <div class="header_menu" id="feat">FEATURED
-                        <div class="header_menu_side-down feat-side">
-                            <a href="#" class="side-down-menu">
-                                <img src="img/feat_side_01.webp" alt="new in" height="100%">
-                                <span>New In</span>
-                            </a>
-                            <a href="#" class="side-down-menu">
-                                <img src="img/feat_side_02.webp" alt="bundles" height="100%">
-                                <span>Bundles</span>
-                            </a>
-                            <a href="#" class="side-down-menu">
-                                <img src="img/feat_side_03.webp" alt="letter necklaces" height="100%">
-                                <span>Letter Necklaces</span>
-                            </a>
-                            <a href="#" class="side-down-menu">
-                                <img src="img/feat_side_04.webp" alt="earing charms" height="100%">
-                                <span>Earring Charms</span>
-                            </a>
-                            <a href="#" class="side-down-menu">
-                                <img src="img/feat_side_05.webp" alt="zodiac collection" height="100%">
-                                <span>Zodiac Collection</span>
-                            </a>
-                            <a href="#" class="side-down-menu">
-                                <img src="img/feat_side_06.webp" alt="silver jewelry" height="100%">
-                                <span>Silver Jewelry</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="header_menu" id="ear">EARRING
-                        <div class="header_menu_side-down ear-side">
-                            <a href="#" class="side-down-menu">
-                                <img src="img/ear_side_01.webp" alt="all earrings" height="100%">
-                                <span>All Earrings</span>
-                            </a>
-                            <a href="#" class="side-down-menu">
-                                <img src="img/ear_side_02.webp" alt="hoop earrings" height="100%">
-                                <span>Hoop Earrings</span>
-                            </a>
-                            <a href="#" class="side-down-menu">
-                                <img src="img/ear_side_03.webp" alt="drop earrings" height="100%">
-                                <span>Drop Earrings</span>
-                            </a>
-                            <a href="#" class="side-down-menu">
-                                <img src="img/ear_side_04.webp" alt="earring charms" height="100%">
-                                <span>Earrings Charms</span>
-                            </a>
-                            <a href="#" class="side-down-menu">
-                                <img src="img/ear_side_05.webp" alt="bundles" height="100%">
-                                <span>Bundles</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="header_menu" id="neck">NECKLACES
-                        <div class="header_menu_side-down neck-side">
-                            <a href="#" class="side-down-menu">
-                                <img src="img/neck_side_01.webp" alt="all necklaces" height="100%">
-                                <span>All Necklaces</span>
-                            </a>
-                            <a href="#" class="side-down-menu">
-                                <img src="img/neck_side_02.webp" alt="pendant necklaces" height="100%">
-                                <span>Pendant Necklaces</span>
-                            </a>
-                            <a href="#" class="side-down-menu">
-                                <img src="img/neck_side_03.webp" alt="chain necklaces" height="100%">
-                                <span>Chain Necklaces</span>
-                            </a>
-                            <a href="#" class="side-down-menu">
-                                <img src="img/neck_side_04.webp" alt="layerd necklaces" height="100%">
-                                <span>Layerd Necklaces</span>
-                            </a>
-                            <a href="#" class="side-down-menu">
-                                <img src="img/neck_side_05.webp" alt="personalized necklaces" height="100%">
-                                <span>Personalized Necklaces</span>
-                            </a>
-                            <a href="#" class="side-down-menu">
-                                <img src="img/neck_side_06.webp" alt="bundles" height="100%">
-                                <span>Bundles</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="header_menu" id="ring">RINGS & BRACELETS
-                        <div class="header_menu_side-down ring-side">
-                            <a href="#" class="side-down-menu">
-                                <img src="img/ring_side_01.webp" alt="all rings" height="100%">
-                                <span>All Rings</span>
-                            </a>
-                            <a href="#" class="side-down-menu">
-                                <img src="img/ring_side_02.webp" alt="statement rings" height="100%">
-                                <span>Statement Rings</span>
-                            </a>
-                            <a href="#" class="side-down-menu">
-                                <img src="img/ring_side_03.webp" alt="stacking rings" height="100%">
-                                <span>Stacking Rings</span>
-                            </a>
-                            <a href="#" class="side-down-menu">
-                                <img src="img/ring_side_04.webp" alt="all bracelets" height="100%">
-                                <span>All Bracelets</span>
-                            </a>
-                            <a href="#" class="side-down-menu">
-                                <img src="img/ring_side_05.webp" alt="bundles" height="100%">
-                                <span>Bundles</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="header_menu" id="gold">SOLID GOLD
-                        <div class="header_menu_side-down-variant gold-side">
-                            <ul class="side-menu_left">
-                                <li><h3 class="side-title">FINE JEWELRY</h3></li>
-                                <li><a href="#">All Solid Gold</a></li>
-                                <li><a href="#">Earrings</a></li>
-                                <li><a href="#">Necklaces & Charms</a></li>
-                                <li><a href="#">Bracelets & Rings</a></li>
-                            </ul>
-                            <div class="side-menu_right">
-                                <a href="#" class="side-down-menu">
-                                    <img src="img/gold_side_01.webp" alt="shop solid gold" height="100%">
-                                    <span>Shop Solid Gold</span>
-                                </a>
-                                <a href="#" class="side-down-menu">
-                                    <img src="img/gold_side_02.webp" alt="diamonds" height="100%">
-                                    <span>Diamonds</span>
-                                </a>
-                                <a href="#" class="side-down-menu">
-                                    <img src="img/gold_side_03.webp" alt="solid gold sets" height="100%">
-                                    <span>Solid Gold Sets</span>
-                                </a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="header_menu point">LAST CHANCE</div>
-                    <div class="header_menu" id="about">ABOUT US
-                        <div class="header_menu_side-down-variant about-side">
-                            <ul class="side-menu_left">
-                                <li><h3 class="side-title">ABOUT US</h3></li>
-                                <li><a href="#">Our Story</a></li>
-                                <li><a href="#">Our Jewelry</a></li>
-                                <li><a href="#">Our People</a></li>
-                                <li><a href="#">Our Planet</a></li>
-                            </ul>
-                            <div class="side-menu_right">
-                                <a href="#" class="side-down-menu">
-                                    <img src="img/about_side_01.webp" alt="al rewards" height="100%">
-                                    <span>AL Rewards</span>
-                                </a>
-                                <a href="#" class="side-down-menu">
-                                    <img src="img/about_side_02.webp" alt="faq" height="100%">
-                                    <span>FAQ</span>
-                                </a>
-                                <a href="#" class="side-down-menu">
-                                    <img src="img/about_side_03.webp" alt="returns & exchanges" height="100%">
-                                    <span>Returns & Exchanges</span>
-                                </a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="mobile-container" id="mobile-menu" >
-                    <div class="slide-menu-box">
-                        <ul class="slide-menu-list">
-                            <li>
-                                <a href="#" class="slide-menu">
-                                    <img src="img/mobile_menu_01.webp" alt="best sellers" width="72px">
-                                    <div class="menu-title">BEST SELLERS</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="slide-menu">
-                                    <img src="img/mobile_menu_02.webp" alt="last chance" width="72px">
-                                    <div class="menu-title">Last Chance</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="slide-menu">
-                                    <img src="img/mobile_menu_03.webp" alt="necklaces" width="72px">
-                                    <div class="menu-title">NECKLACES</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="slide-menu">
-                                    <img src="img/mobile_menu_04.webp" alt="earrings" width="72px">
-                                    <div class="menu-title">EARRINGS</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="slide-menu">
-                                    <img src="img/mobile_menu_05.webp" alt="rings" width="72px">
-                                    <div class="menu-title">RINGS</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="slide-menu">
-                                    <img src="img/mobile_menu_06.webp" alt="bracelets" width="72px">
-                                    <div class="menu-title">BRACELETS</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="slide-menu">
-                                    <img src="img/mobile_menu_07.webp" alt="new" width="72px">
-                                    <div class="menu-title">NEW</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="slide-menu">
-                                    <img src="img/mobile_menu_08.webp" alt="bundles" width="72px">
-                                    <div class="menu-title">BUNDLES</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="slide-menu">
-                                    <img src="img/mobile_menu_09.webp" alt="solid gold" width="72px">
-                                    <div class="menu-title">SOLID GOLD</div>
-                                </a>
-                            </li>
-                            
-                        </ul>
-                    </div>
-                </div>
-                <div class="hamburger-menu-container">
-                    <div class="menu-title">
-                        <h2 class="menu-logo">
-                            <img src="img/logo_img.png" alt="ana luisa logo" width="100%">
-                        </h2>
-                        <div class="close-btn"><span class="material-symbols-outlined">
-                            cancel
-                            </span></div>
-                    </div>
-                    <div class="hamburger-menu-box">
-                        <div class="menu-box"><div class="bg-img best"><p>Best Sellers</p></div></div>
-                        <div class="menu-box"><div class="bg-img featured"><p>Featured</p></div></div>
-                        <div class="menu-box"><div class="bg-img earrings"><p>Earrings</p></div></div>
-                        <div class="menu-box"><div class="bg-img necklaces"><p>Necklaces</p></div></div>
-                        <div class="menu-box"><div class="bg-img ring"><p>Bracelets & Rings</p></div></div>
-                        <div class="menu-box"><div class="bg-img gold"><p>Solid Gold</p></div></div>
-                        <div class="menu-box"><div class="bg-img last">&nbsp;</div></div>
-                    </div>
-                    <div class="hamburger-menu-bottom">
-                        <div class="bottom-top-box">
-                            <div class="top-left-box">
-                                <a href="#">About Us</a>
-                                <a href="#">Rewards</a>
-                            </div>
-                            <div class="top-right-box">
-                                <p> <span class="material-symbols-outlined">
-                                    deployed_code
-                                    </span> 
-                                    Track My Order</p>
-                                <p><span class="material-symbols-outlined">
-                                    home_pin
-                                    </span>
-                                    Store</p>
-                                <p><span class="material-symbols-outlined">
-                                    info
-                                    </span>
-                                    Information</p>
-                            </div>
-                        </div>
-                        <div class="bottom-down-box">
-                            <div class="login">LOG IN</div>
-                            <div class="signup">SIGN UP</div>
-                        </div>
-                    </div>
-                </div>
+            <div class="local">
+              <a href="#">
+                <img src="img/locate_img.png" alt="usa" width="25px" />
+              </a>
+              <span>USD</span>
             </div>
+            <div class="store">
+              <span class="material-symbols-outlined"> home_pin </span>
+              <span>STORE</span>
+            </div>
+          </div>
+          <div class="mobile-header-top-left">
+            <div class="mobile-menu">
+              <span class="material-symbols-outlined" id="search-icon">
+                menu
+              </span>
+            </div>
+            <div class="mobile-search">
+              <span class="material-symbols-outlined" id="search-icon">
+                search
+              </span>
+            </div>
+          </div>
+
+          <div class="header-top_center">
+            <a href="index.html" id="header_logo"
+              ><img src="img/logo_img.png" alt="logo" width="120px"
+            /></a>
+          </div>
+
+          <div class="header-top_right">
+            <div class="pc-header">
+              <a href="#">AL REWARDS</a>
+              <div class="header-icon-box">
+                <span class="header-icon"
+                  ><span class="material-symbols-outlined"> help </span>
+                </span>
+                <span class="header-icon">
+                  <span class="material-symbols-outlined"> favorite </span>
+                </span>
+                <span class="header-icon">
+                  <span class="material-symbols-outlined"> person </span>
+                </span>
+                <span class="header-icon">
+                  <span class="material-symbols-outlined"> shopping_bag </span>
+                </span>
+              </div>
+            </div>
+            <div class="mobile-icon-box">
+              <span class="material-symbols-outlined"> favorite </span>
+              <span class="material-symbols-outlined"> shopping_bag </span>
+            </div>
+          </div>
+        </div>
+
+        <nav class="header-bottom">
+          <ul class="pc-header_menu-container">
+            <li class="header_menu">BEST SELLERS</li>
+            <li class="header_menu" id="feat">
+              FEATURED
+              <div class="header_menu_side-down feat-side">
+                <a href="#" class="side-down-menu">
+                  <img src="img/feat_side_01.webp" alt="new in" height="100%" />
+                  <span>New In</span>
+                </a>
+                <a href="#" class="side-down-menu">
+                  <img
+                    src="img/feat_side_02.webp"
+                    alt="bundles"
+                    height="100%"
+                  />
+                  <span>Bundles</span>
+                </a>
+                <a href="#" class="side-down-menu">
+                  <img
+                    src="img/feat_side_03.webp"
+                    alt="letter necklaces"
+                    height="100%"
+                  />
+                  <span>Letter Necklaces</span>
+                </a>
+                <a href="#" class="side-down-menu">
+                  <img
+                    src="img/feat_side_04.webp"
+                    alt="earing charms"
+                    height="100%"
+                  />
+                  <span>Earring Charms</span>
+                </a>
+                <a href="#" class="side-down-menu">
+                  <img
+                    src="img/feat_side_05.webp"
+                    alt="zodiac collection"
+                    height="100%"
+                  />
+                  <span>Zodiac Collection</span>
+                </a>
+                <a href="#" class="side-down-menu">
+                  <img
+                    src="img/feat_side_06.webp"
+                    alt="silver jewelry"
+                    height="100%"
+                  />
+                  <span>Silver Jewelry</span>
+                </a>
+              </div>
+            </li>
+            <li class="header_menu" id="ear">
+              EARRING
+              <div class="header_menu_side-down ear-side">
+                <a href="#" class="side-down-menu">
+                  <img
+                    src="img/ear_side_01.webp"
+                    alt="all earrings"
+                    height="100%"
+                  />
+                  <span>All Earrings</span>
+                </a>
+                <a href="#" class="side-down-menu">
+                  <img
+                    src="img/ear_side_02.webp"
+                    alt="hoop earrings"
+                    height="100%"
+                  />
+                  <span>Hoop Earrings</span>
+                </a>
+                <a href="#" class="side-down-menu">
+                  <img
+                    src="img/ear_side_03.webp"
+                    alt="drop earrings"
+                    height="100%"
+                  />
+                  <span>Drop Earrings</span>
+                </a>
+                <a href="#" class="side-down-menu">
+                  <img
+                    src="img/ear_side_04.webp"
+                    alt="earring charms"
+                    height="100%"
+                  />
+                  <span>Earrings Charms</span>
+                </a>
+                <a href="#" class="side-down-menu">
+                  <img src="img/ear_side_05.webp" alt="bundles" height="100%" />
+                  <span>Bundles</span>
+                </a>
+              </div>
+            </li>
+            <li class="header_menu" id="neck">
+              NECKLACES
+              <div class="header_menu_side-down neck-side">
+                <a href="#" class="side-down-menu">
+                  <img
+                    src="img/neck_side_01.webp"
+                    alt="all necklaces"
+                    height="100%"
+                  />
+                  <span>All Necklaces</span>
+                </a>
+                <a href="#" class="side-down-menu">
+                  <img
+                    src="img/neck_side_02.webp"
+                    alt="pendant necklaces"
+                    height="100%"
+                  />
+                  <span>Pendant Necklaces</span>
+                </a>
+                <a href="#" class="side-down-menu">
+                  <img
+                    src="img/neck_side_03.webp"
+                    alt="chain necklaces"
+                    height="100%"
+                  />
+                  <span>Chain Necklaces</span>
+                </a>
+                <a href="#" class="side-down-menu">
+                  <img
+                    src="img/neck_side_04.webp"
+                    alt="layerd necklaces"
+                    height="100%"
+                  />
+                  <span>Layerd Necklaces</span>
+                </a>
+                <a href="#" class="side-down-menu">
+                  <img
+                    src="img/neck_side_05.webp"
+                    alt="personalized necklaces"
+                    height="100%"
+                  />
+                  <span>Personalized Necklaces</span>
+                </a>
+                <a href="#" class="side-down-menu">
+                  <img
+                    src="img/neck_side_06.webp"
+                    alt="bundles"
+                    height="100%"
+                  />
+                  <span>Bundles</span>
+                </a>
+              </div>
+            </li>
+            <li class="header_menu" id="ring">
+              RINGS & BRACELETS
+              <div class="header_menu_side-down ring-side">
+                <a href="#" class="side-down-menu">
+                  <img
+                    src="img/ring_side_01.webp"
+                    alt="all rings"
+                    height="100%"
+                  />
+                  <span>All Rings</span>
+                </a>
+                <a href="#" class="side-down-menu">
+                  <img
+                    src="img/ring_side_02.webp"
+                    alt="statement rings"
+                    height="100%"
+                  />
+                  <span>Statement Rings</span>
+                </a>
+                <a href="#" class="side-down-menu">
+                  <img
+                    src="img/ring_side_03.webp"
+                    alt="stacking rings"
+                    height="100%"
+                  />
+                  <span>Stacking Rings</span>
+                </a>
+                <a href="#" class="side-down-menu">
+                  <img
+                    src="img/ring_side_04.webp"
+                    alt="all bracelets"
+                    height="100%"
+                  />
+                  <span>All Bracelets</span>
+                </a>
+                <a href="#" class="side-down-menu">
+                  <img
+                    src="img/ring_side_05.webp"
+                    alt="bundles"
+                    height="100%"
+                  />
+                  <span>Bundles</span>
+                </a>
+              </div>
+            </li>
+            <li class="header_menu" id="gold">
+              SOLID GOLD
+              <div class="header_menu_side-down-variant gold-side">
+                <ul class="side-menu_left">
+                  <li><h3 class="side-title">FINE JEWELRY</h3></li>
+                  <li><a href="#">All Solid Gold</a></li>
+                  <li><a href="#">Earrings</a></li>
+                  <li><a href="#">Necklaces & Charms</a></li>
+                  <li><a href="#">Bracelets & Rings</a></li>
+                </ul>
+                <div class="side-menu_right">
+                  <a href="#" class="side-down-menu">
+                    <img
+                      src="img/gold_side_01.webp"
+                      alt="shop solid gold"
+                      height="100%"
+                    />
+                    <span>Shop Solid Gold</span>
+                  </a>
+                  <a href="#" class="side-down-menu">
+                    <img
+                      src="img/gold_side_02.webp"
+                      alt="diamonds"
+                      height="100%"
+                    />
+                    <span>Diamonds</span>
+                  </a>
+                  <a href="#" class="side-down-menu">
+                    <img
+                      src="img/gold_side_03.webp"
+                      alt="solid gold sets"
+                      height="100%"
+                    />
+                    <span>Solid Gold Sets</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="header_menu point">LAST CHANCE</li>
+            <li class="header_menu" id="about">
+              ABOUT US
+              <div class="header_menu_side-down-variant about-side">
+                <ul class="side-menu_left">
+                  <li><h3 class="side-title">ABOUT US</h3></li>
+                  <li><a href="#">Our Story</a></li>
+                  <li><a href="#">Our Jewelry</a></li>
+                  <li><a href="#">Our People</a></li>
+                  <li><a href="#">Our Planet</a></li>
+                </ul>
+                <div class="side-menu_right">
+                  <a href="#" class="side-down-menu">
+                    <img
+                      src="img/about_side_01.webp"
+                      alt="al rewards"
+                      height="100%"
+                    />
+                    <span>AL Rewards</span>
+                  </a>
+                  <a href="#" class="side-down-menu">
+                    <img src="img/about_side_02.webp" alt="faq" height="100%" />
+                    <span>FAQ</span>
+                  </a>
+                  <a href="#" class="side-down-menu">
+                    <img
+                      src="img/about_side_03.webp"
+                      alt="returns & exchanges"
+                      height="100%"
+                    />
+                    <span>Returns & Exchanges</span>
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="mobile-container" id="mobile-menu">
+            <nav class="slide-menu-box">
+              <ul class="slide-menu-list">
+                <li>
+                  <a href="#" class="slide-menu">
+                    <img
+                      src="img/mobile_menu_01.webp"
+                      alt="best sellers"
+                      width="72px"
+                    />
+                    <div class="menu-title">BEST SELLERS</div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="slide-menu">
+                    <img
+                      src="img/mobile_menu_02.webp"
+                      alt="last chance"
+                      width="72px"
+                    />
+                    <div class="menu-title">Last Chance</div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="slide-menu">
+                    <img
+                      src="img/mobile_menu_03.webp"
+                      alt="necklaces"
+                      width="72px"
+                    />
+                    <div class="menu-title">NECKLACES</div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="slide-menu">
+                    <img
+                      src="img/mobile_menu_04.webp"
+                      alt="earrings"
+                      width="72px"
+                    />
+                    <div class="menu-title">EARRINGS</div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="slide-menu">
+                    <img
+                      src="img/mobile_menu_05.webp"
+                      alt="rings"
+                      width="72px"
+                    />
+                    <div class="menu-title">RINGS</div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="slide-menu">
+                    <img
+                      src="img/mobile_menu_06.webp"
+                      alt="bracelets"
+                      width="72px"
+                    />
+                    <div class="menu-title">BRACELETS</div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="slide-menu">
+                    <img src="img/mobile_menu_07.webp" alt="new" width="72px" />
+                    <div class="menu-title">NEW</div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="slide-menu">
+                    <img
+                      src="img/mobile_menu_08.webp"
+                      alt="bundles"
+                      width="72px"
+                    />
+                    <div class="menu-title">BUNDLES</div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="slide-menu">
+                    <img
+                      src="img/mobile_menu_09.webp"
+                      alt="solid gold"
+                      width="72px"
+                    />
+                    <div class="menu-title">SOLID GOLD</div>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="hamburger-menu-container">
+            <div class="menu-title">
+              <h2 class="menu-logo">
+                <img src="img/logo_img.png" alt="ana luisa logo" width="100%" />
+              </h2>
+              <div class="close-btn">
+                <span class="material-symbols-outlined"> cancel </span>
+              </div>
+            </div>
+            <ul class="hamburger-menu-box">
+              <li class="menu-box">
+                <div class="bg-img best"><p>Best Sellers</p></div>
+              </li>
+              <li class="menu-box">
+                <div class="bg-img featured"><p>Featured</p></div>
+              </li>
+              <li class="menu-box">
+                <div class="bg-img earrings"><p>Earrings</p></div>
+              </li>
+              <li class="menu-box">
+                <div class="bg-img necklaces"><p>Necklaces</p></div>
+              </li>
+              <li class="menu-box">
+                <div class="bg-img ring"><p>Bracelets & Rings</p></div>
+              </li>
+              <li class="menu-box">
+                <div class="bg-img gold"><p>Solid Gold</p></div>
+              </li>
+              <li class="menu-box"><div class="bg-img last">&nbsp;</div></li>
+            </ul>
+            <div class="hamburger-menu-bottom">
+              <div class="bottom-top-box">
+                <div class="top-left-box">
+                  <a href="#">About Us</a>
+                  <a href="#">Rewards</a>
+                </div>
+                <div class="top-right-box">
+                  <p>
+                    <span class="material-symbols-outlined">
+                      deployed_code
+                    </span>
+                    <a href="#">Track My Order</a>
+                  </p>
+                  <p>
+                    <span class="material-symbols-outlined"> home_pin </span>
+                    <a href="#">Store</a>
+                  </p>
+                  <p>
+                    <span class="material-symbols-outlined"> info </span>
+                    <a href="#">Information</a>
+                  </p>
+                </div>
+              </div>
+              <div class="bottom-down-box">
+                <div class="login">LOG IN</div>
+                <div class="signup">SIGN UP</div>
+              </div>
+            </div>
+          </div>
         </nav>
+      </div>
     </header>
-    
+
     <div class="content-container">
-    <!-- 메인화면 시작 -->
-        <main class="main-content">
-            <!-- 경로표시 -->
-            <div class="root-all">
-                <div class="root">
-                    Home / Earrings / Stud Earrings / Flower Stud Earrings - Rosalie
-                </div>
+      <!-- 메인화면 시작 -->
+      <main class="main-content">
+        <!-- 경로표시 -->
+        <div class="root-all">
+          <div class="root">
+            Home / Earrings / Stud Earrings / Flower Stud Earrings - Rosalie
+          </div>
+        </div>
+        <!-- 제품 사진과  제품정보-->
+        <div class="product-container">
+          <div class="product-img-big" id="thumbnail-img-big">&nbsp;</div>
+          <div class="product-img-container">
+            <div class="product-img img-clicked">
+              <img
+                id="product_img"
+                src="img/detail_img_01.jpg"
+                alt="상품 이미지"
+                width="100%"
+              />
             </div>
-            <!-- 제품 사진과  제품정보-->
-            <div class="product-container">
-                <div class="product-img-big" id="thumbnail-img-big">
-                    &nbsp;
-                </div>
-                <div class="product-img-container">
-                    
-                    <div class="product-img img-clicked">
-                        <img id="product_img" src="img/detail_img_01.jpg" alt="상품 이미지" width="100%">
-                    </div>
-                    <div class="product-img">
-                        <img id="product_img" src="img/detail_img_02.jpg" alt="상품 이미지" width="100%">
-                    </div>
-                    <div class="product-img">
-                        <img id="product_img" src="img/detail_img_03.jpg" alt="상품 이미지" width="100%">
-                    </div>
-                    <div class="product-img">
-                        <img id="product_img" src="img/detail_img_04.jpg" alt="상품 이미지" width="100%">
-                    </div>
-                    <div class="product-img">
-                        <img id="product_img" src="img/detail_warranty_img.jpg" alt="상품 이미지" width="100%">
-                    </div>
-                    <div class="product-img">
-                        <img id="product_img" src="img/detail_img_05.jpg" alt="상품 이미지" width="100%">
-                    </div>
-                </div>
-                <div class="product-info-container">
-                    <div class="info_text_01">
-                        <h2 class="product_name">ROSALIE</h2>
-                        <div class="product_price">$55</div>
-                    </div>
-                    <div class="info_text_02">Flower Stud Earrings</div>
-                    <div class="info_text_03">
-                        <div class="review-star">
-                            <img src="./img/stars.png" alt="review star" width="100%" height="100%">
-                        </div>
-                        <div class="rate">4.93 (14 reviews)</div>
-                    </div>
-                    <div class="add-btn">
-                        <button>ADD TO CART</button>
-                    </div>
-                    <div class="info_text_04">
-                        <div class="light-effect">
-                            <span class="red-light">&nbsp;</span>
-                            <span class="red-light-effect">&nbsp;</span>
-                        </div>
-                        1288 items purchased in the last 24 hours
-                    </div>
-                    <div class="info_text_05">
-                        Estimated Delivery by <span class="font-bold">Mon, Jan 29</span>
-                    </div>
-                    <div class="info_text_06">
-                        <div class="text_title_container">
-                            <h3 class="text-title">Self-Love Sale</h3>
-                            <p class="text-sub-title">Get up to 25% off</p>
-                        </div>
-                        <div class="notice-txt">Code automatically applied at checkout.
-                            Exclustions apply. <span class="underline">Order deadlines.</span>
-                        </div>
-                    </div>
-                    <div class="info_text_07">
-                        <ul class="service_info">
-                            <li><span class="material-symbols-outlined">
-                                sync_alt
-                                </span>
-                                Free Shipping  &amp; Exchanges
-                            </li>
-                            <li>
-                                <span class="material-symbols-outlined">
-                                    stars
-                                </span>
-                                Tarnishing Resistant  &amp; Hypoallergenic
-                            </li>
-                            <li>
-                                <span class="material-symbols-outlined">
-                                    priority
-                                </span>
-                                2-Year Warranty
-                            </li>
-                            <li>
-                                <span class="material-symbols-outlined">
-                                    family_star
-                                </span>
-                                600,000 happy customers
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="info_text_08">
-                        <div class="info-btn-box">
-                            <div class="info-button btn_clicked" data-category="quality">Quality</div>
-                            <div class="info-button" data-category="details">Deatils</div>
-                            <div class="info-button" data-category="care">Care</div>
-                            <div class="info-button" data-category="description">Description</div>
-                        </div>
-                        <div class="info_box info01" data-type="quality">
-                            <div class="info-detail info-detail_01">
-                                <p class="detail_title">Ana Luisa offers a 2-Year Warranty on all products.</p>
-                                <p>Every single piece of jewelry is rigorously tested and guaranteed to be long lasting, hypoallergenic and water resistant.</p>
-                                <p>If for any reason you are not satisfied with your purchase, our 2 year warranty has you covered. No risk, all rewards.</p>
-                                <span>Read more</span>
-                            </div>
-                        </div>
-                        
-                        <div class="info_box info02" data-type="details">
-                                <div class="info-detail info-detail_02">
-                                    <div class="detail-item">
-                                        <p>Materials</p>
-                                        <p>14K Gold on Sterling Silver</p>
-                                    </div>
-                                    <div class="detail-item">
-                                        <p>Width</p>
-                                        <p>6.8mm - 0.27"</p>
-                                    </div>
-                                    <div class="detail-item">
-                                        <p>Thickness</p>
-                                        <p>3.5mm - 0.14"</p>
-                                    </div>
-                                    <div class="detail-item">
-                                        <p>Weight</p>
-                                        <p>0.45g</p>
-                                    </div>
-                                    <div class="detail-item">
-                                        <p>Clasp</p>
-                                        <p>Post</p>
-                                    </div>
-                                    <div class="detail-item">
-                                        <p>Post</p>
-                                        <p>Surgical Steel</p>
-                                    </div>
-                                    <div class="detail-item">
-                                        <p>Crafted In</p>
-                                        <p>China</p>
-                                    </div>
-                            </div>
-                        </div>
-                        <div class="info_box info03" data-type="care">
-                            <div class="info-detail info-detail_03">
-                                <p>Our jewelry is designed to be water-resistant, so you don't have to worry about taking it off when you're near water. However, we recommend limiting prolonged exposure to water to keep your jewelry looking its best.</p>
-                                <p>When you're not wearing your pieces, we suggest storing them in the original Ana Luisa pouch in a cool, dry place to help maintain their luster and extend their lifespan.</p>
-                                <p>For more details, check out our <span>Jewelry care page.</span></p>
-                            </div>
-                        </div>
-                        <div class="info_box info04" data-type="description">
-                            <div class="info-detail info-detail_04">
-                                <p>Dainty yet bold, these flower stud earrings are a perfect delicate pair. Crafted in recycled sterling silver and dipped in 14k gold, these studs are featured in a fun rose-shaped silhouette. Create a fun floral look and pair these studs with our Gloria necklace.</p>
-                                <p>• Rose-shaped studs</p>
-                                <p>• Tarnish-proof 14k gold plating</p>
-                                <p>• Crafted in recycled sterling silver</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
+            <div class="product-img">
+              <img
+                id="product_img"
+                src="img/detail_img_02.jpg"
+                alt="상품 이미지"
+                width="100%"
+              />
             </div>
-            <!-- 여백 -->
-            <div class="blank_h80"></div>
-            <div class="m_blank_h30"></div>
-
-            <!-- 베너 -->
-            <div class="middle-banner">
-                <img class="pc-banner" src="img/middle-banner.jpg" width="100%" alt="중간 베너 이미지">
-                <img class="mobile-banner" src="img/middle-banner-mobile.jpg" width="100%" alt="중간 베너 이미지">
+            <div class="product-img">
+              <img
+                id="product_img"
+                src="img/detail_img_03.jpg"
+                alt="상품 이미지"
+                width="100%"
+              />
             </div>
+            <div class="product-img">
+              <img
+                id="product_img"
+                src="img/detail_img_04.jpg"
+                alt="상품 이미지"
+                width="100%"
+              />
+            </div>
+            <div class="product-img">
+              <img
+                id="product_img"
+                src="img/detail_warranty_img.jpg"
+                alt="상품 이미지"
+                width="100%"
+              />
+            </div>
+            <div class="product-img">
+              <img
+                id="product_img"
+                src="img/detail_img_05.jpg"
+                alt="상품 이미지"
+                width="100%"
+              />
+            </div>
+          </div>
+          <div class="product-info-container">
+            <div class="info_text_01">
+              <h2 class="product_name">ROSALIE</h2>
+              <div class="product_price">$55</div>
+            </div>
+            <div class="info_text_02">Flower Stud Earrings</div>
+            <div class="info_text_03">
+              <div class="review-star">
+                <img
+                  src="./img/stars.png"
+                  alt="review star"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+              <div class="rate">4.93 (14 reviews)</div>
+            </div>
+            <div class="add-btn">
+              <button>ADD TO CART</button>
+            </div>
+            <div class="info_text_04">
+              <div class="light-effect">
+                <span class="red-light">&nbsp;</span>
+                <span class="red-light-effect">&nbsp;</span>
+              </div>
+              1288 items purchased in the last 24 hours
+            </div>
+            <div class="info_text_05">
+              Estimated Delivery by <span class="font-bold">Mon, Jan 29</span>
+            </div>
+            <div class="info_text_06">
+              <div class="text_title_container">
+                <h3 class="text-title">Self-Love Sale</h3>
+                <p class="text-sub-title">Get up to 25% off</p>
+              </div>
+              <div class="notice-txt">
+                Code automatically applied at checkout. Exclustions apply.
+                <span class="underline">Order deadlines.</span>
+              </div>
+            </div>
+            <div class="info_text_07">
+              <ul class="service_info">
+                <li>
+                  <span class="material-symbols-outlined"> sync_alt </span>
+                  Free Shipping &amp; Exchanges
+                </li>
+                <li>
+                  <span class="material-symbols-outlined"> stars </span>
+                  Tarnishing Resistant &amp; Hypoallergenic
+                </li>
+                <li>
+                  <span class="material-symbols-outlined"> priority </span>
+                  2-Year Warranty
+                </li>
+                <li>
+                  <span class="material-symbols-outlined"> family_star </span>
+                  600,000 happy customers
+                </li>
+              </ul>
+            </div>
+            <div class="info_text_08">
+              <div class="info-btn-box">
+                <div class="info-button btn_clicked" data-category="quality">
+                  Quality
+                </div>
+                <div class="info-button" data-category="details">Deatils</div>
+                <div class="info-button" data-category="care">Care</div>
+                <div class="info-button" data-category="description">
+                  Description
+                </div>
+              </div>
+              <div class="info_box info01" data-type="quality">
+                <div class="info-detail info-detail_01">
+                  <p class="detail_title">
+                    Ana Luisa offers a 2-Year Warranty on all products.
+                  </p>
+                  <p>
+                    Every single piece of jewelry is rigorously tested and
+                    guaranteed to be long lasting, hypoallergenic and water
+                    resistant.
+                  </p>
+                  <p>
+                    If for any reason you are not satisfied with your purchase,
+                    our 2 year warranty has you covered. No risk, all rewards.
+                  </p>
+                  <span>Read more</span>
+                </div>
+              </div>
 
-            <!-- 여백 -->
-            <div class="blank_h80"></div>
-            <div class="m_blank_h30"></div>
+              <div class="info_box info02" data-type="details">
+                <div class="info-detail info-detail_02">
+                  <div class="detail-item">
+                    <p>Materials</p>
+                    <p>14K Gold on Sterling Silver</p>
+                  </div>
+                  <div class="detail-item">
+                    <p>Width</p>
+                    <p>6.8mm - 0.27"</p>
+                  </div>
+                  <div class="detail-item">
+                    <p>Thickness</p>
+                    <p>3.5mm - 0.14"</p>
+                  </div>
+                  <div class="detail-item">
+                    <p>Weight</p>
+                    <p>0.45g</p>
+                  </div>
+                  <div class="detail-item">
+                    <p>Clasp</p>
+                    <p>Post</p>
+                  </div>
+                  <div class="detail-item">
+                    <p>Post</p>
+                    <p>Surgical Steel</p>
+                  </div>
+                  <div class="detail-item">
+                    <p>Crafted In</p>
+                    <p>China</p>
+                  </div>
+                </div>
+              </div>
+              <div class="info_box info03" data-type="care">
+                <div class="info-detail info-detail_03">
+                  <p>
+                    Our jewelry is designed to be water-resistant, so you don't
+                    have to worry about taking it off when you're near water.
+                    However, we recommend limiting prolonged exposure to water
+                    to keep your jewelry looking its best.
+                  </p>
+                  <p>
+                    When you're not wearing your pieces, we suggest storing them
+                    in the original Ana Luisa pouch in a cool, dry place to help
+                    maintain their luster and extend their lifespan.
+                  </p>
+                  <p>
+                    For more details, check out our
+                    <span>Jewelry care page.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="info_box info04" data-type="description">
+                <div class="info-detail info-detail_04">
+                  <p>
+                    Dainty yet bold, these flower stud earrings are a perfect
+                    delicate pair. Crafted in recycled sterling silver and
+                    dipped in 14k gold, these studs are featured in a fun
+                    rose-shaped silhouette. Create a fun floral look and pair
+                    these studs with our Gloria necklace.
+                  </p>
+                  <p>• Rose-shaped studs</p>
+                  <p>• Tarnish-proof 14k gold plating</p>
+                  <p>• Crafted in recycled sterling silver</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 여백 -->
+        <div class="blank_h80"></div>
+        <div class="m_blank_h30"></div>
 
-            <!-- get inspired -->
-            <div class="inspired-container">
-                <div class="inspired-title-box">
-                    <h3 class="inspired-title">GET INSPIRED</h3>
-                    <!-- <div class="slide-btn">
+        <!-- 베너 -->
+        <div class="middle-banner">
+          <img
+            class="pc-banner"
+            src="img/middle-banner.jpg"
+            width="100%"
+            alt="중간 베너 이미지"
+          />
+          <img
+            class="mobile-banner"
+            src="img/middle-banner-mobile.jpg"
+            width="100%"
+            alt="중간 베너 이미지"
+          />
+        </div>
+
+        <!-- 여백 -->
+        <div class="blank_h80"></div>
+        <div class="m_blank_h30"></div>
+
+        <!-- get inspired -->
+        <div class="inspired-container">
+          <div class="inspired-title-box">
+            <h3 class="inspired-title">GET INSPIRED</h3>
+            <!-- <div class="slide-btn">
                         <span class="material-symbols-outlined" id="btn-off">
                             arrow_circle_left
                         </span>
@@ -574,565 +774,584 @@
                             arrow_circle_right
                         </span>
                     </div> -->
-                </div>
-                
-                <div class="inspired-img-box">
-                    <div class="inspired-img">
-                        <img src="img/inspired-img-01.jpg" alt="inspired img 01" width="100%">
-                    </div>
-                    <div class="inspired-img">
-                        <img src="img/inspired-img-02.jpg" alt="inspired img 02" width="100%">
-                    </div>
-                    <div class="inspired-img">
-                        <img src="img/inspired-img-03.jpg" alt="inspired img 03" width="100%">
-                    </div>
-                    <div class="inspired-img">
-                        <img src="img/inspired-img-04.jpg" alt="inspired img 04" width="100%">
-                    </div>
-                </div>
+          </div>
+
+          <div class="inspired-img-box">
+            <div class="inspired-img">
+              <img
+                src="img/inspired-img-01.jpg"
+                alt="inspired img 01"
+                width="100%"
+              />
             </div>
+            <div class="inspired-img">
+              <img
+                src="img/inspired-img-02.jpg"
+                alt="inspired img 02"
+                width="100%"
+              />
+            </div>
+            <div class="inspired-img">
+              <img
+                src="img/inspired-img-03.jpg"
+                alt="inspired img 03"
+                width="100%"
+              />
+            </div>
+            <div class="inspired-img">
+              <img
+                src="img/inspired-img-04.jpg"
+                alt="inspired img 04"
+                width="100%"
+              />
+            </div>
+          </div>
+        </div>
 
-               <!-- 여백 -->
-               <div class="blank_h80"></div>
-               <div class="m_blank_h30"></div>
-
-               <!-- review -->
-               <div class="reviews-container">
-                    <h2 class="review-title">YOUR REVIEWS</h2>
-                    <div class="review-rate">
-                        <div class="review-star">
-                            <img src="img/review-5star.png" alt="review rate star" width="100%">
-                        </div>
-                        <p>4.93 (14 reviews)</p>
-                    </div>
-                    <div class="review-btn-container">
-                        <div class="review-btn-left">
-                            <div class="reviews-btn">Reviews</div>
-                            <div class="questions-btn">Questions</div>
-                        </div>
-                        <div class="review-btn-right">
-                            Write a review
-                        </div>
-                    </div>
-                    <div class="review-box-container">
-
-                        <div class="review-box">
-                            <div class="review-left">
-                                <div class="review-left-star">
-                                    <img src="img/review-5star.png" width="100%">
-                                </div>
-                                <div class="user-name">
-                                    Elly
-                                </div>
-                                <div class="verified">
-                                    <span class="green-circle">&nbsp;</span><span>Verified Buyer</span>
-                                </div>
-                                <div class="notice-verified">
-                                    <p>What is a Verified Buyer?</p>
-                                    <p>A Verified Buyer is a user who has purchased the reviewed product through our store.</p>
-                                </div>
-                            </div>
-
-                            <div class="review-middle">
-                                <h4 class="review-middle-title">My new favorite earings!</h4>
-                                <div class="review-text">
-                                    The material feels high quality and they have a great luster to them. They are easy to dress up or down and are the perfect size. I've worn them every day since they arrived. These are the first pair of earrings I've purchase for ana luisa and I will certainly be buying more!
-                                </div>
-                                <div class="recommend">
-                                    <span class="material-symbols-outlined">
-                                        check_circle
-                                    </span>
-                                    Yes i would recommend this to a friend.
-                                </div>
-                            </div>
-                            <div class="review-right">
-                                <div class="review-date">
-                                    April 30th, 2023
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="review-box">
-                            <div class="review-left">
-                                <div class="review-left-star">
-                                    <img src="img/review-5star.png" width="100%">
-                                </div>
-                                <div class="user-name">
-                                    Lucy
-                                </div>
-                                <div class="verified">
-                                    <span class="green-circle">&nbsp;</span><span>Verified Buyer</span>
-                                </div>
-                                <div class="notice-verified">
-                                    <p>What is a Verified Buyer?</p>
-                                    <p>A Verified Buyer is a user who has purchased the reviewed product through our store.</p>
-                                </div>
-                            </div>
-
-                            <div class="review-middle">
-                                <h4 class="review-middle-title">Pretty</h4>
-                                <div class="review-text">
-                                    Really nice and exactly what I wanted
-                                </div>
-                                <div class="recommend">
-                                    <span class="material-symbols-outlined">
-                                        check_circle
-                                    </span>
-                                    Yes i would recommend this to a friend.
-                                </div>
-                            </div>
-                            <div class="review-right">
-                                <div class="review-date">
-                                    August 30th, 2022
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="review-box">
-                            <div class="review-left">
-                                <div class="review-left-star">
-                                    <img src="img/review-5star.png" width="100%">
-                                </div>
-                                <div class="user-name">
-                                    Hannah
-                                </div>
-                                <div class="verified">
-                                    <span class="green-circle">&nbsp;</span><span>Verified Buyer</span>
-                                </div>
-                                <div class="notice-verified">
-                                    <p>What is a Verified Buyer?</p>
-                                    <p>A Verified Buyer is a user who has purchased the reviewed product through our store.</p>
-                                </div>
-                            </div>
-
-                            <div class="review-middle">
-                                <h4 class="review-middle-title">Pretty</h4>
-                                <div class="review-text">
-                                    Pretty and dainty
-                                </div>
-                                <div class="recommend">
-                                    <span class="material-symbols-outlined">
-                                        check_circle
-                                    </span>
-                                    Yes i would recommend this to a friend.
-                                </div>
-                            </div>
-                            <div class="review-right">
-                                <div class="review-date">
-                                    August 30th, 2022
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="review-box">
-                            <div class="review-left">
-                                <div class="review-left-star">
-                                    <img src="img/review-5star.png" width="100%">
-                                </div>
-                                <div class="user-name">
-                                    Erika
-                                </div>
-                                <div class="verified">
-                                    <span class="green-circle">&nbsp;</span><span>Verified Buyer</span>
-                                </div>
-                                <div class="notice-verified">
-                                    <p>What is a Verified Buyer?</p>
-                                    <p>A Verified Buyer is a user who has purchased the reviewed product through our store.</p>
-                                </div>
-                            </div>
-
-                            <div class="review-middle">
-                                <!-- <h4 class="review-middle-title">&nbsp;</h4> -->
-                                <div class="review-text">
-                                    Flower Stud Earrings - Rosalie
-                                </div>
-                                <div class="recommend">
-                                    <span class="material-symbols-outlined">
-                                        check_circle
-                                    </span>
-                                    Yes i would recommend this to a friend.
-                                </div>
-                            </div>
-                            <div class="review-right">
-                                <div class="review-date">
-                                    July 12th, 2022
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="review-box">
-                            <div class="review-left">
-                                <div class="review-left-star">
-                                    <img src="img/review-5star.png" width="100%">
-                                </div>
-                                <div class="user-name">
-                                    Dominique
-                                </div>
-                                <div class="verified">
-                                    <span class="green-circle">&nbsp;</span><span>Verified Buyer</span>
-                                </div>
-                                <div class="notice-verified">
-                                    <p>What is a Verified Buyer?</p>
-                                    <p>A Verified Buyer is a user who has purchased the reviewed product through our store.</p>
-                                </div>
-                            </div>
-
-                            <div class="review-middle">
-                                <!-- <h4 class="review-middle-title">&nbsp;</h4> -->
-                                <div class="review-text">
-                                    Flower Stud Earrings - Rosalie
-                                </div>
-                                <div class="recommend">
-                                    <span class="material-symbols-outlined">
-                                        check_circle
-                                    </span>
-                                    Yes i would recommend this to a friend.
-                                </div>
-                            </div>
-                            <div class="review-right">
-                                <div class="review-date">
-                                    July 2nd, 2022
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="review-box">
-                            <div class="review-left">
-                                <div class="review-left-star">
-                                    <img src="img/review-5star.png" width="100%">
-                                </div>
-                                <div class="user-name">
-                                    Thalie
-                                </div>
-                                <div class="verified">
-                                    <span class="green-circle">&nbsp;</span><span>Verified Buyer</span>
-                                </div>
-                                <div class="notice-verified">
-                                    <p>What is a Verified Buyer?</p>
-                                    <p>A Verified Buyer is a user who has purchased the reviewed product through our store.</p>
-                                </div>
-                            </div>
-
-                            <div class="review-middle">
-                                <!-- <h4 class="review-middle-title">&nbsp;</h4> -->
-                                <div class="review-text">
-                                    Flower Stud Earrings - Rosalie
-                                </div>
-                                <div class="recommend">
-                                    <span class="material-symbols-outlined">
-                                        check_circle
-                                    </span>
-                                    Yes i would recommend this to a friend.
-                                </div>
-                            </div>
-                            <div class="review-right">
-                                <div class="review-date">
-                                    July 1st, 2022
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="review-box">
-                            <div class="review-left">
-                                <div class="review-left-star">
-                                    <img src="img/review-5star.png" width="100%">
-                                </div>
-                                <div class="user-name">
-                                    Alyssa
-                                </div>
-                                <div class="verified">
-                                    <span class="green-circle">&nbsp;</span><span>Verified Buyer</span>
-                                </div>
-                                <div class="notice-verified">
-                                    <p>What is a Verified Buyer?</p>
-                                    <p>A Verified Buyer is a user who has purchased the reviewed product through our store.</p>
-                                </div>
-                            </div>
-
-                            <div class="review-middle">
-                                <h4 class="review-middle-title">So Sweet!</h4>
-                                <div class="review-text">
-                                    I love these earrings! They are my new favourite!
-                                </div>
-                                <div class="recommend">
-                                    <span class="material-symbols-outlined">
-                                        check_circle
-                                    </span>
-                                    Yes i would recommend this to a friend.
-                                </div>
-                            </div>
-                            <div class="review-right">
-                                <div class="review-date">
-                                    May 21st, 2022
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="review-box">
-                            <div class="review-left">
-                                <div class="review-left-star">
-                                    <img src="img/review-5star.png" width="100%">
-                                </div>
-                                <div class="user-name">
-                                    Kakainahoe
-                                </div>
-                                <div class="verified">
-                                    <span class="green-circle">&nbsp;</span><span>Verified Buyer</span>
-                                </div>
-                                <div class="notice-verified">
-                                    <p>What is a Verified Buyer?</p>
-                                    <p>A Verified Buyer is a user who has purchased the reviewed product through our store.</p>
-                                </div>
-                            </div>
-
-                            <div class="review-middle">
-                                <h4 class="review-middle-title">Great earrings!</h4>
-                                <div class="review-text">
-                                    So dainty and cute!
-                                </div>
-                                <div class="recommend">
-                                    <span class="material-symbols-outlined">
-                                        check_circle
-                                    </span>
-                                    Yes i would recommend this to a friend.
-                                </div>
-                            </div>
-                            <div class="review-right">
-                                <div class="review-date">
-                                    April 22nd, 2022
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="review-box">
-                            <div class="review-left">
-                                <div class="review-left-star">
-                                    <img src="img/review-4star.png" width="100%">
-                                </div>
-                                <div class="user-name">
-                                    Ana
-                                </div>
-                                <div class="verified">
-                                    <span class="green-circle">&nbsp;</span><span>Verified Buyer</span>
-                                </div>
-                                <div class="notice-verified">
-                                    <p>What is a Verified Buyer?</p>
-                                    <p>A Verified Buyer is a user who has purchased the reviewed product through our store.</p>
-                                </div>
-                            </div>
-
-                            <div class="review-middle">
-                                <h4 class="review-middle-title">Very nice product</h4>
-                                <div class="review-text">
-                                    Easy and quick delivery
-                                </div>
-                                <div class="recommend">
-                                    <span class="material-symbols-outlined">
-                                        check_circle
-                                    </span>
-                                    Yes i would recommend this to a friend.
-                                </div>
-                            </div>
-                            <div class="review-right">
-                                <div class="review-date">
-                                    April 13th, 2022
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="review-box">
-                            <div class="review-left">
-                                <div class="review-left-star">
-                                    <img src="img/review-5star.png" width="100%">
-                                </div>
-                                <div class="user-name">
-                                Mary
-                                </div>
-                                <div class="verified">
-                                    <span class="green-circle">&nbsp;</span><span>Verified Buyer</span>
-                                </div>
-                                <div class="notice-verified">
-                                    <p>What is a Verified Buyer?</p>
-                                    <p>A Verified Buyer is a user who has purchased the reviewed product through our store.</p>
-                                </div>
-                            </div>
-
-                            <div class="review-middle">
-                                <h4 class="review-middle-title">Rosalie Flower Stud Earrings</h4>
-                                <div class="review-text">
-                                    The Rosealie Flower stud earrings are very unique and pretty. They can be worn with casual, business, evening, or formal attire. I'm glad to have them!
-                                </div>
-                                <div class="recommend">
-                                    <span class="material-symbols-outlined">
-                                        check_circle
-                                    </span>
-                                    Yes i would recommend this to a friend.
-                                </div>
-                            </div>
-                            <div class="review-right">
-                                <div class="review-date">
-                                    April 12th, 2022
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="review-page-end">
-                            <div class="review-page">
-                                <span>1</span>
-                                <span>2</span>
-                                <span class="material-symbols-outlined">
-                                    chevron_right
-                                    </span>
-                            </div>
-                        </div>
-
-
-                    </div>
-               </div>
-               <!-- 여백 -->
-               <div class="blank_h80"></div>
-               <div class="m_blank_h30"></div>
-               <!-- PREVIOUSLY SEEN -->
-               <div class="together-container">
-                <section class="new-arrivals">
-                    <div class="new-top">
-                        <h2 class="section_title">
-                            PREVIOUSLY SEEN
-                        </h2>
-                        <div class="slide-btn" id="new_slide_btn">
-                            <span class="material-symbols-outlined prev">
-                                arrow_circle_left
-                            </span>
-                            <span class="material-symbols-outlined next btn-on" >
-                                arrow_circle_right
-                            </span>
-                        </div>
-                    </div>
-                    <div class="slide_wrap">
-                        <div class="slide_all">
-                            <div class="new-bottom slide_page">
-                                <div class="new">
-                                    <div class="new_item_img new01"><img src="img/product_05.jpg" width="100%" height="100%"></div>
-                                    <p class="new_item_name">LEX MALACHITE</p>
-                                    <p class="new_item_price">$65</p>
-                                </div>
-                                <div class="new">
-                                    <div class="new_item_img new02"><img src="img/product_06.jpg" width="100%" height="100%"></div>
-                                    <p class="new_item_name">GLORIA</p>
-                                    <p class="new_item_price">$65</p>
-                                </div>
-                                <div class="new">
-                                    <div class="new_item_img new03"><img src="img/product_07.jpg" width="100%" height="100%"></div>
-                                    <p class="new_item_name">LEIA</p>
-                                    <p class="new_item_price">$55</p>
-                                </div>
-                                <div class="new">
-                                    <div class="new_item_img new04"><img src="img/product_08.jpg" width="100%" height="100%"></div>
-                                    <p class="new_item_name">ALIX</p>
-                                    <p class="new_item_price">$75</p>
-                                </div>
-                            </div>
-                            <div class="new-bottom slide_page">
-                                <div class="new">
-                                    <div class="new_item_img new01"><img src="img/product_13.jpg" width="100%" height="100%"></div>
-                                    <p class="new_item_name">SUMMER SILVER</p>
-                                    <p class="new_item_price">$115</p>
-                                </div>
-                                <div class="new">
-                                    <div class="new_item_img new02"><img src="img/product_14.jpg" width="100%" height="100%"></div>
-                                    <p class="new_item_name">FLOATING DIAMOND CHARM LARGE</p>
-                                    <p class="new_item_price">$140</p>
-                                </div>
-                                <div class="new">
-                                    <div class="new_item_img new03"><img src="img/product_15.jpg" width="100%" height="100%"></div>
-                                    <p class="new_item_name">ADRIANNA SET</p>
-                                    <p class="new_item_price">$95</p>
-                                </div>
-                                <div class="new">
-                                    <div class="new_item_img new04"><img src="img/product_16.jpg" width="100%" height="100%"></div>
-                                    <p class="new_item_name">STARSTRUCK BUNDLE</p>
-                                    <p class="new_item_price">$185</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-               </div>
-
-        </main>
         <!-- 여백 -->
         <div class="blank_h80"></div>
         <div class="m_blank_h30"></div>
-        <!-- footer -->
-        <footer class="footer-container">
-            <div class="footer-left-content">
-                <div class="footer-con">
-                    <h4 class="footer-con-title">#ANALUISA</h4>
-                    <ul class="footer-con-list">
-                        <li>Our mission</li>
-                        <li>Club AL</li>
-                        <li>Influencers</li>
-                        <li>Careers</li>
-                    </ul>
-                </div>
-                <div class="footer-con">
-                    <h4 class="footer-con-title">CUSTOMER CARE</h4>
-                    <ul class="footer-con-list">
-                        <li>Track my order</li>
-                        <li>Retruns & Exchanges</li>
-                        <li>FAQs</li>
-                        <li>Corporate Gifting</li>
-                        <li>Wholesale Inquiries</li>
-                    </ul>
-                </div>
-                <div class="footer-con">
-                    <h4 class="footer-con-title">CONTACT US</h4>
-                    <ul class="footer-con-list">
-                        <li>9AM-8PM EST</li>
-                        <li><span class="material-symbols-outlined">
-                            send
-                            </span>
-                            Email
-                        </li>
-                        <li>
-                            <span class="material-symbols-outlined">
-                                sms
-                                </span>
-                            Chat Now</li>
-                        <li><span class="material-symbols-outlined">
-                            call
-                            </span>
-                            +1 (844)-123-4567(Text only)</li>
-                    </ul>
-                </div>
-            </div>
 
-            <div class="footer-right-conetnet">
-                <h4 class="footer-right-title">
-                    BE THE FIRST TO KNOW!
-                </h4>
-                <div class="footer-right-text">
-                    Sign up to receive insider information on 
-                    exclusive offers and new arrivals.
-                </div>
-                <div class="footer-email">
-                    <input class="email-input" type="text" placeholder="Enter Email">
-                    <div class="send-btn">
-                        <span class="material-symbols-outlined">
-                            arrow_circle_right
-                            </span>
-                    </div>
-                </div>
-                <div class="sns-icon">
-                    <img src="img/sns_img_01.png" alt="instagram" width="20px">
-                    <img src="img/sns_img_02.png" alt="tiktok" width="20px">
-                </div>
-                <div class="made">
-                    <p>Ana Luisa Clone Portfolio made by Jeon Youra</p>
-                </div>
+        <!-- review -->
+        <div class="reviews-container">
+          <h2 class="review-title">YOUR REVIEWS</h2>
+          <div class="review-rate">
+            <div class="review-star">
+              <img
+                src="img/review-5star.png"
+                alt="review rate star"
+                width="100%"
+              />
             </div>
-        </footer>
+            <p>4.93 (14 reviews)</p>
+          </div>
+          <div class="review-btn-container">
+            <div class="review-btn-left">
+              <div class="reviews-btn">Reviews</div>
+              <div class="questions-btn">Questions</div>
+            </div>
+            <div class="review-btn-right">Write a review</div>
+          </div>
+          <div class="review-box-container">
+            <div class="review-box">
+              <div class="review-left">
+                <div class="review-left-star">
+                  <img src="img/review-5star.png" width="100%" />
+                </div>
+                <div class="user-name">Elly</div>
+                <div class="verified">
+                  <span class="green-circle">&nbsp;</span
+                  ><span>Verified Buyer</span>
+                </div>
+                <div class="notice-verified">
+                  <p>What is a Verified Buyer?</p>
+                  <p>
+                    A Verified Buyer is a user who has purchased the reviewed
+                    product through our store.
+                  </p>
+                </div>
+              </div>
+
+              <div class="review-middle">
+                <h4 class="review-middle-title">My new favorite earings!</h4>
+                <div class="review-text">
+                  The material feels high quality and they have a great luster
+                  to them. They are easy to dress up or down and are the perfect
+                  size. I've worn them every day since they arrived. These are
+                  the first pair of earrings I've purchase for ana luisa and I
+                  will certainly be buying more!
+                </div>
+                <div class="recommend">
+                  <span class="material-symbols-outlined"> check_circle </span>
+                  Yes i would recommend this to a friend.
+                </div>
+              </div>
+              <div class="review-right">
+                <div class="review-date">April 30th, 2023</div>
+              </div>
+            </div>
+            <div class="review-box">
+              <div class="review-left">
+                <div class="review-left-star">
+                  <img src="img/review-5star.png" width="100%" />
+                </div>
+                <div class="user-name">Lucy</div>
+                <div class="verified">
+                  <span class="green-circle">&nbsp;</span
+                  ><span>Verified Buyer</span>
+                </div>
+                <div class="notice-verified">
+                  <p>What is a Verified Buyer?</p>
+                  <p>
+                    A Verified Buyer is a user who has purchased the reviewed
+                    product through our store.
+                  </p>
+                </div>
+              </div>
+
+              <div class="review-middle">
+                <h4 class="review-middle-title">Pretty</h4>
+                <div class="review-text">
+                  Really nice and exactly what I wanted
+                </div>
+                <div class="recommend">
+                  <span class="material-symbols-outlined"> check_circle </span>
+                  Yes i would recommend this to a friend.
+                </div>
+              </div>
+              <div class="review-right">
+                <div class="review-date">August 30th, 2022</div>
+              </div>
+            </div>
+            <div class="review-box">
+              <div class="review-left">
+                <div class="review-left-star">
+                  <img src="img/review-5star.png" width="100%" />
+                </div>
+                <div class="user-name">Hannah</div>
+                <div class="verified">
+                  <span class="green-circle">&nbsp;</span
+                  ><span>Verified Buyer</span>
+                </div>
+                <div class="notice-verified">
+                  <p>What is a Verified Buyer?</p>
+                  <p>
+                    A Verified Buyer is a user who has purchased the reviewed
+                    product through our store.
+                  </p>
+                </div>
+              </div>
+
+              <div class="review-middle">
+                <h4 class="review-middle-title">Pretty</h4>
+                <div class="review-text">Pretty and dainty</div>
+                <div class="recommend">
+                  <span class="material-symbols-outlined"> check_circle </span>
+                  Yes i would recommend this to a friend.
+                </div>
+              </div>
+              <div class="review-right">
+                <div class="review-date">August 30th, 2022</div>
+              </div>
+            </div>
+            <div class="review-box">
+              <div class="review-left">
+                <div class="review-left-star">
+                  <img src="img/review-5star.png" width="100%" />
+                </div>
+                <div class="user-name">Erika</div>
+                <div class="verified">
+                  <span class="green-circle">&nbsp;</span
+                  ><span>Verified Buyer</span>
+                </div>
+                <div class="notice-verified">
+                  <p>What is a Verified Buyer?</p>
+                  <p>
+                    A Verified Buyer is a user who has purchased the reviewed
+                    product through our store.
+                  </p>
+                </div>
+              </div>
+
+              <div class="review-middle">
+                <!-- <h4 class="review-middle-title">&nbsp;</h4> -->
+                <div class="review-text">Flower Stud Earrings - Rosalie</div>
+                <div class="recommend">
+                  <span class="material-symbols-outlined"> check_circle </span>
+                  Yes i would recommend this to a friend.
+                </div>
+              </div>
+              <div class="review-right">
+                <div class="review-date">July 12th, 2022</div>
+              </div>
+            </div>
+            <div class="review-box">
+              <div class="review-left">
+                <div class="review-left-star">
+                  <img src="img/review-5star.png" width="100%" />
+                </div>
+                <div class="user-name">Dominique</div>
+                <div class="verified">
+                  <span class="green-circle">&nbsp;</span
+                  ><span>Verified Buyer</span>
+                </div>
+                <div class="notice-verified">
+                  <p>What is a Verified Buyer?</p>
+                  <p>
+                    A Verified Buyer is a user who has purchased the reviewed
+                    product through our store.
+                  </p>
+                </div>
+              </div>
+
+              <div class="review-middle">
+                <!-- <h4 class="review-middle-title">&nbsp;</h4> -->
+                <div class="review-text">Flower Stud Earrings - Rosalie</div>
+                <div class="recommend">
+                  <span class="material-symbols-outlined"> check_circle </span>
+                  Yes i would recommend this to a friend.
+                </div>
+              </div>
+              <div class="review-right">
+                <div class="review-date">July 2nd, 2022</div>
+              </div>
+            </div>
+            <div class="review-box">
+              <div class="review-left">
+                <div class="review-left-star">
+                  <img src="img/review-5star.png" width="100%" />
+                </div>
+                <div class="user-name">Thalie</div>
+                <div class="verified">
+                  <span class="green-circle">&nbsp;</span
+                  ><span>Verified Buyer</span>
+                </div>
+                <div class="notice-verified">
+                  <p>What is a Verified Buyer?</p>
+                  <p>
+                    A Verified Buyer is a user who has purchased the reviewed
+                    product through our store.
+                  </p>
+                </div>
+              </div>
+
+              <div class="review-middle">
+                <!-- <h4 class="review-middle-title">&nbsp;</h4> -->
+                <div class="review-text">Flower Stud Earrings - Rosalie</div>
+                <div class="recommend">
+                  <span class="material-symbols-outlined"> check_circle </span>
+                  Yes i would recommend this to a friend.
+                </div>
+              </div>
+              <div class="review-right">
+                <div class="review-date">July 1st, 2022</div>
+              </div>
+            </div>
+            <div class="review-box">
+              <div class="review-left">
+                <div class="review-left-star">
+                  <img src="img/review-5star.png" width="100%" />
+                </div>
+                <div class="user-name">Alyssa</div>
+                <div class="verified">
+                  <span class="green-circle">&nbsp;</span
+                  ><span>Verified Buyer</span>
+                </div>
+                <div class="notice-verified">
+                  <p>What is a Verified Buyer?</p>
+                  <p>
+                    A Verified Buyer is a user who has purchased the reviewed
+                    product through our store.
+                  </p>
+                </div>
+              </div>
+
+              <div class="review-middle">
+                <h4 class="review-middle-title">So Sweet!</h4>
+                <div class="review-text">
+                  I love these earrings! They are my new favourite!
+                </div>
+                <div class="recommend">
+                  <span class="material-symbols-outlined"> check_circle </span>
+                  Yes i would recommend this to a friend.
+                </div>
+              </div>
+              <div class="review-right">
+                <div class="review-date">May 21st, 2022</div>
+              </div>
+            </div>
+            <div class="review-box">
+              <div class="review-left">
+                <div class="review-left-star">
+                  <img src="img/review-5star.png" width="100%" />
+                </div>
+                <div class="user-name">Kakainahoe</div>
+                <div class="verified">
+                  <span class="green-circle">&nbsp;</span
+                  ><span>Verified Buyer</span>
+                </div>
+                <div class="notice-verified">
+                  <p>What is a Verified Buyer?</p>
+                  <p>
+                    A Verified Buyer is a user who has purchased the reviewed
+                    product through our store.
+                  </p>
+                </div>
+              </div>
+
+              <div class="review-middle">
+                <h4 class="review-middle-title">Great earrings!</h4>
+                <div class="review-text">So dainty and cute!</div>
+                <div class="recommend">
+                  <span class="material-symbols-outlined"> check_circle </span>
+                  Yes i would recommend this to a friend.
+                </div>
+              </div>
+              <div class="review-right">
+                <div class="review-date">April 22nd, 2022</div>
+              </div>
+            </div>
+            <div class="review-box">
+              <div class="review-left">
+                <div class="review-left-star">
+                  <img src="img/review-4star.png" width="100%" />
+                </div>
+                <div class="user-name">Ana</div>
+                <div class="verified">
+                  <span class="green-circle">&nbsp;</span
+                  ><span>Verified Buyer</span>
+                </div>
+                <div class="notice-verified">
+                  <p>What is a Verified Buyer?</p>
+                  <p>
+                    A Verified Buyer is a user who has purchased the reviewed
+                    product through our store.
+                  </p>
+                </div>
+              </div>
+
+              <div class="review-middle">
+                <h4 class="review-middle-title">Very nice product</h4>
+                <div class="review-text">Easy and quick delivery</div>
+                <div class="recommend">
+                  <span class="material-symbols-outlined"> check_circle </span>
+                  Yes i would recommend this to a friend.
+                </div>
+              </div>
+              <div class="review-right">
+                <div class="review-date">April 13th, 2022</div>
+              </div>
+            </div>
+            <div class="review-box">
+              <div class="review-left">
+                <div class="review-left-star">
+                  <img src="img/review-5star.png" width="100%" />
+                </div>
+                <div class="user-name">Mary</div>
+                <div class="verified">
+                  <span class="green-circle">&nbsp;</span
+                  ><span>Verified Buyer</span>
+                </div>
+                <div class="notice-verified">
+                  <p>What is a Verified Buyer?</p>
+                  <p>
+                    A Verified Buyer is a user who has purchased the reviewed
+                    product through our store.
+                  </p>
+                </div>
+              </div>
+
+              <div class="review-middle">
+                <h4 class="review-middle-title">
+                  Rosalie Flower Stud Earrings
+                </h4>
+                <div class="review-text">
+                  The Rosealie Flower stud earrings are very unique and pretty.
+                  They can be worn with casual, business, evening, or formal
+                  attire. I'm glad to have them!
+                </div>
+                <div class="recommend">
+                  <span class="material-symbols-outlined"> check_circle </span>
+                  Yes i would recommend this to a friend.
+                </div>
+              </div>
+              <div class="review-right">
+                <div class="review-date">April 12th, 2022</div>
+              </div>
+            </div>
+            <div class="review-page-end">
+              <div class="review-page">
+                <span>1</span>
+                <span>2</span>
+                <span class="material-symbols-outlined"> chevron_right </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 여백 -->
+        <div class="blank_h80"></div>
+        <div class="m_blank_h30"></div>
+        <!-- PREVIOUSLY SEEN -->
+        <div class="together-container">
+          <section class="new-arrivals">
+            <div class="new-top">
+              <h2 class="section_title">PREVIOUSLY SEEN</h2>
+              <div class="slide-btn" id="new_slide_btn">
+                <span class="material-symbols-outlined prev">
+                  arrow_circle_left
+                </span>
+                <span class="material-symbols-outlined next btn-on">
+                  arrow_circle_right
+                </span>
+              </div>
+            </div>
+            <div class="slide_wrap">
+              <div class="slide_all">
+                <div class="new-bottom slide_page">
+                  <div class="new">
+                    <div class="new_item_img new01">
+                      <img
+                        src="img/product_05.jpg"
+                        width="100%"
+                        height="100%"
+                      />
+                    </div>
+                    <p class="new_item_name">LEX MALACHITE</p>
+                    <p class="new_item_price">$65</p>
+                  </div>
+                  <div class="new">
+                    <div class="new_item_img new02">
+                      <img
+                        src="img/product_06.jpg"
+                        width="100%"
+                        height="100%"
+                      />
+                    </div>
+                    <p class="new_item_name">GLORIA</p>
+                    <p class="new_item_price">$65</p>
+                  </div>
+                  <div class="new">
+                    <div class="new_item_img new03">
+                      <img
+                        src="img/product_07.jpg"
+                        width="100%"
+                        height="100%"
+                      />
+                    </div>
+                    <p class="new_item_name">LEIA</p>
+                    <p class="new_item_price">$55</p>
+                  </div>
+                  <div class="new">
+                    <div class="new_item_img new04">
+                      <img
+                        src="img/product_08.jpg"
+                        width="100%"
+                        height="100%"
+                      />
+                    </div>
+                    <p class="new_item_name">ALIX</p>
+                    <p class="new_item_price">$75</p>
+                  </div>
+                </div>
+                <div class="new-bottom slide_page">
+                  <div class="new">
+                    <div class="new_item_img new01">
+                      <img
+                        src="img/product_13.jpg"
+                        width="100%"
+                        height="100%"
+                      />
+                    </div>
+                    <p class="new_item_name">SUMMER SILVER</p>
+                    <p class="new_item_price">$115</p>
+                  </div>
+                  <div class="new">
+                    <div class="new_item_img new02">
+                      <img
+                        src="img/product_14.jpg"
+                        width="100%"
+                        height="100%"
+                      />
+                    </div>
+                    <p class="new_item_name">FLOATING DIAMOND CHARM LARGE</p>
+                    <p class="new_item_price">$140</p>
+                  </div>
+                  <div class="new">
+                    <div class="new_item_img new03">
+                      <img
+                        src="img/product_15.jpg"
+                        width="100%"
+                        height="100%"
+                      />
+                    </div>
+                    <p class="new_item_name">ADRIANNA SET</p>
+                    <p class="new_item_price">$95</p>
+                  </div>
+                  <div class="new">
+                    <div class="new_item_img new04">
+                      <img
+                        src="img/product_16.jpg"
+                        width="100%"
+                        height="100%"
+                      />
+                    </div>
+                    <p class="new_item_name">STARSTRUCK BUNDLE</p>
+                    <p class="new_item_price">$185</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <!-- 여백 -->
+      <div class="blank_h80"></div>
+      <div class="m_blank_h30"></div>
+      <!-- footer -->
+      <footer class="footer-container">
+        <div class="footer-left-content">
+          <div class="footer-con">
+            <h4 class="footer-con-title">#ANALUISA</h4>
+            <ul class="footer-con-list">
+              <li>Our mission</li>
+              <li>Club AL</li>
+              <li>Influencers</li>
+              <li>Careers</li>
+            </ul>
+          </div>
+          <div class="footer-con">
+            <h4 class="footer-con-title">CUSTOMER CARE</h4>
+            <ul class="footer-con-list">
+              <li>Track my order</li>
+              <li>Retruns & Exchanges</li>
+              <li>FAQs</li>
+              <li>Corporate Gifting</li>
+              <li>Wholesale Inquiries</li>
+            </ul>
+          </div>
+          <div class="footer-con">
+            <h4 class="footer-con-title">CONTACT US</h4>
+            <ul class="footer-con-list">
+              <li>9AM-8PM EST</li>
+              <li>
+                <span class="material-symbols-outlined"> send </span>
+                Email
+              </li>
+              <li>
+                <span class="material-symbols-outlined"> sms </span>
+                Chat Now
+              </li>
+              <li>
+                <span class="material-symbols-outlined"> call </span> +1
+                (844)-123-4567(Text only)
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-right-conetnet">
+          <h4 class="footer-right-title">BE THE FIRST TO KNOW!</h4>
+          <div class="footer-right-text">
+            Sign up to receive insider information on exclusive offers and new
+            arrivals.
+          </div>
+          <div class="footer-email">
+            <input class="email-input" type="text" placeholder="Enter Email" />
+            <div class="send-btn">
+              <span class="material-symbols-outlined">
+                arrow_circle_right
+              </span>
+            </div>
+          </div>
+          <div class="sns-icon">
+            <img src="img/sns_img_01.png" alt="instagram" width="20px" />
+            <img src="img/sns_img_02.png" alt="tiktok" width="20px" />
+          </div>
+          <div class="made">
+            <p>Ana Luisa Clone Portfolio made by Jeon Youra</p>
+          </div>
+        </div>
+      </footer>
     </div>
-    
-</body>
+  </body>
 </html>

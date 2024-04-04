@@ -1,78 +1,78 @@
- :root {
-    --point-color: #E94B2F;
-    --point-color-variant: #FBF7EC;
-    --primary-color: #0d0d0d;
-    --main-font: 'Mulish', sans-serif;
-    --color-white: #f1f1f1;
- }
+:root {
+  --point-color: #e94b2f;
+  --point-color-variant: #fbf7ec;
+  --primary-color: #0d0d0d;
+  --main-font: "Mulish", sans-serif;
+  --color-white: #f1f1f1;
+}
 
- * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: var(--main-font);
-    font-size: 10pt;
+  font-family: var(--main-font);
+  font-size: 10pt;
 }
 
-ul, ol, li {
-    list-style: none;
+ul,
+ol,
+li {
+  list-style: none;
 }
 
 a {
-    color: #0d0d0d;
-    text-decoration: none;
+  color: #0d0d0d;
+  text-decoration: none;
 }
-a:link, a:active, a:visited {
-    color: #0d0d0d;
-    text-decoration: none;
+a:link,
+a:active,
+a:visited {
+  color: #0d0d0d;
+  text-decoration: none;
 }
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 button {
-    border: 1px solid var(--point-color);
-    background: var(--point-color);
-    color: var(--point-color-variant);
+  border: 1px solid var(--point-color);
+  background: var(--point-color);
+  color: var(--point-color-variant);
+  cursor: pointer;
 }
 
 button:hover {
-    background: var(--point-color-variant);
-    color: var(--point-color);
+  background: var(--point-color-variant);
+  color: var(--point-color);
 }
 
-
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
 /* 여백 height 80px */
 .blank_h80 {
-    position: relative;
-    clear: both;
-    width: 100%;
-    height: 80px;
+  position: relative;
+  clear: both;
+  width: 100%;
+  height: 80px;
 }
 
 .m_blank_h30 {
-    width: 100%;
-    height: 30px;
-    display: none;
+  width: 100%;
+  height: 30px;
+  display: none;
 }
 /* 섹션 타이틀하고 소개글 */
-.section_title  {
-    font-size: 2.5rem;
+.section_title {
+  font-size: 2.5rem;
 }
 
 /* 모바일 */
 @media all and (max-width: 800px) {
-    .section_title  {
-        font-size: 1.8rem;
-    }
+  .section_title {
+    font-size: 1.8rem;
+  }
 }

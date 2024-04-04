@@ -30,7 +30,7 @@
 </head>
 <body>
     <header id="header" >
-        <nav class="header-container" >
+        <div class="header-container" >
 
             <div class="header-top">
 
@@ -108,10 +108,10 @@
                 </div>
             </div>
 
-            <div class="header-bottom">
-                <div class="pc-header_menu-container">
-                    <div class="header_menu">BEST SELLERS</div>
-                    <div class="header_menu" id="feat">FEATURED
+            <nav class="header-bottom">
+                <ul class="pc-header_menu-container">
+                    <li class="header_menu">BEST SELLERS</li>
+                    <li class="header_menu" id="feat">FEATURED
                         <div class="header_menu_side-down feat-side">
                             <a href="#" class="side-down-menu">
                                 <img src="img/feat_side_01.webp" alt="new in" height="100%">
@@ -138,8 +138,8 @@
                                 <span>Silver Jewelry</span>
                             </a>
                         </div>
-                    </div>
-                    <div class="header_menu" id="ear">EARRING
+                    </li>
+                    <li class="header_menu" id="ear">EARRING
                         <div class="header_menu_side-down ear-side">
                             <a href="#" class="side-down-menu">
                                 <img src="img/ear_side_01.webp" alt="all earrings" height="100%">
@@ -162,8 +162,8 @@
                                 <span>Bundles</span>
                             </a>
                         </div>
-                    </div>
-                    <div class="header_menu" id="neck">NECKLACES
+                    </li>
+                    <li class="header_menu" id="neck">NECKLACES
                         <div class="header_menu_side-down neck-side">
                             <a href="#" class="side-down-menu">
                                 <img src="img/neck_side_01.webp" alt="all necklaces" height="100%">
@@ -190,8 +190,8 @@
                                 <span>Bundles</span>
                             </a>
                         </div>
-                    </div>
-                    <div class="header_menu" id="ring">RINGS & BRACELETS
+                    </li>
+                    <li class="header_menu" id="ring">RINGS & BRACELETS
                         <div class="header_menu_side-down ring-side">
                             <a href="#" class="side-down-menu">
                                 <img src="img/ring_side_01.webp" alt="all rings" height="100%">
@@ -214,8 +214,8 @@
                                 <span>Bundles</span>
                             </a>
                         </div>
-                    </div>
-                    <div class="header_menu" id="gold">SOLID GOLD
+                    </li>
+                    <li class="header_menu" id="gold">SOLID GOLD
                         <div class="header_menu_side-down-variant gold-side">
                             <ul class="side-menu_left">
                                 <li><h3 class="side-title">FINE JEWELRY</h3></li>
@@ -240,9 +240,9 @@
                             </div>
                             
                         </div>
-                    </div>
-                    <div class="header_menu point">LAST CHANCE</div>
-                    <div class="header_menu" id="about">ABOUT US
+                    </li>
+                    <li class="header_menu point">LAST CHANCE</li>
+                    <li class="header_menu" id="about">ABOUT US
                         <div class="header_menu_side-down-variant about-side">
                             <ul class="side-menu_left">
                                 <li><h3 class="side-title">ABOUT US</h3></li>
@@ -267,10 +267,10 @@
                             </div>
                             
                         </div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
                 <div class="mobile-container" id="mobile-menu" >
-                    <div class="slide-menu-box">
+                    <nav class="slide-menu-box">
                         <ul class="slide-menu-list">
                             <li>
                                 <a href="#" class="slide-menu">
@@ -328,7 +328,7 @@
                             </li>
                             
                         </ul>
-                    </div>
+                    </nav>
                 </div>
                 <div class="hamburger-menu-container">
                     <div class="menu-title">
@@ -339,15 +339,15 @@
                             cancel
                             </span></div>
                     </div>
-                    <div class="hamburger-menu-box">
-                        <div class="menu-box"><div class="bg-img best"><p>Best Sellers</p></div></div>
-                        <div class="menu-box"><div class="bg-img featured"><p>Featured</p></div></div>
-                        <div class="menu-box"><div class="bg-img earrings"><p>Earrings</p></div></div>
-                        <div class="menu-box"><div class="bg-img necklaces"><p>Necklaces</p></div></div>
-                        <div class="menu-box"><div class="bg-img ring"><p>Bracelets & Rings</p></div></div>
-                        <div class="menu-box"><div class="bg-img gold"><p>Solid Gold</p></div></div>
-                        <div class="menu-box"><div class="bg-img last">&nbsp;</div></div>
-                    </div>
+                    <ul class="hamburger-menu-box">
+                        <li class="menu-box"><div class="bg-img best"><p>Best Sellers</p></div></li>
+                        <li class="menu-box"><div class="bg-img featured"><p>Featured</p></div></li>
+                        <li class="menu-box"><div class="bg-img earrings"><p>Earrings</p></div></li>
+                        <li class="menu-box"><div class="bg-img necklaces"><p>Necklaces</p></div></li>
+                        <li class="menu-box"><div class="bg-img ring"><p>Bracelets & Rings</p></div></li>
+                        <li class="menu-box"><div class="bg-img gold"><p>Solid Gold</p></div></li>
+                        <li class="menu-box"><div class="bg-img last">&nbsp;</div></li>
+                    </ul>
                     <div class="hamburger-menu-bottom">
                         <div class="bottom-top-box">
                             <div class="top-left-box">
@@ -358,15 +358,15 @@
                                 <p> <span class="material-symbols-outlined">
                                     deployed_code
                                     </span> 
-                                    Track My Order</p>
+                                    <a href="#">Track My Order</a></p>
                                 <p><span class="material-symbols-outlined">
                                     home_pin
                                     </span>
-                                    Store</p>
+                                    <a href="#">Store</a></p>
                                 <p><span class="material-symbols-outlined">
                                     info
                                     </span>
-                                    Information</p>
+                                    <a href="#">Information</a></p>
                             </div>
                         </div>
                         <div class="bottom-down-box">
@@ -375,8 +375,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
     
     
